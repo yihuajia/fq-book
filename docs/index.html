@@ -27,9 +27,9 @@
 <div id="app"></div>
 
 <script>
-  gitalkConfig = {
-  
-  window.$docsify = {
+
+    window.$docsify = {
+      disqus: 'loremwalker',
       nameLink: '/',
       name: '这本书能让你连接互联网 '
       + '<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">'+
@@ -39,7 +39,6 @@
       loadSidebar: true,
       themeColor: "black",
       auto2top: true,
-      disqus: 'loremwalker',
       subMaxLevel: 3,
       search: {
         noData: {
@@ -49,9 +48,23 @@
         // placeholder: {
         //   '/': '搜索'
         // }
-      }
+      },
+      plugins: [
+        
+      function (hook) {
+      var footer = [
+        // '<hr/>',
+        '<footer>',
+          '<span> &copy;2018.<a href="https://loremwalker.github.io" style="color: inherit; font-weight: normal; text-decoration: none;">loremwalker</a></span>&emsp;',
+        '<span><a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a><span>',
+        '</footer>'
+      ].join('')
+      hook.afterEach(function (html) {
+        return html + footer
+      })
     }
-  }
+      ]
+    }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
