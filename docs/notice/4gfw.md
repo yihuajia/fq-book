@@ -1,6 +1,6 @@
 # 了解GFW
 
-!> GFW的本质上是巨大的高性能分布式入侵检测维稳系统并不是单纯的防火墙
+!> GFW本质上由家国用纳税人钱财所造的巨大的高性能分布式入侵检测维稳系统并不是单纯的防火墙
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-23_210035.png)
 

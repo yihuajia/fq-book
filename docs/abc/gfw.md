@@ -1,6 +1,6 @@
 # \[转\]GFW原理和封锁技术
 
-> 转载自：[GFW原理和封锁技术](https://xuranus.github.io/2017/10/09/GFW%E5%8E%9F%E7%90%86%E5%92%8C%E5%B0%81%E9%94%81%E6%8A%80%E6%9C%AF)&emsp;作者：[XUranus](https://xuranus.github.io/)
+> 原文：[GFW原理和封锁技术](https://xuranus.github.io/2017/10/09/GFW%E5%8E%9F%E7%90%86%E5%92%8C%E5%B0%81%E9%94%81%E6%8A%80%E6%9C%AF)&emsp;作者：[XUranus](https://xuranus.github.io/)
 
 GFW是Great Fire Wall的缩写，即“长城防火墙”。这个工程由若干个部分组成，实现不同功能。长城防火墙主要指TG监控和过滤互联网内容的软硬件系统，由服务器和路由器等设备，加上相关的应用程序所构成。
 

@@ -77,12 +77,14 @@
 
   * [ss#1130](append/ss1130.md)
   * [难封锁的草榴](append/caoliu.md)
-  * [浅谈手机](append/android.md)
-  * [封锁IP的理解](append/block-ip.md)
-  * [对游戏的解读](append/game.md)
+  * [浅谈手机的理解](append/android.md)
+  * [关于封锁IP的认为](append/block-ip.md)
+  * [对于校园网的解读](append/tcw.md)
+  * [论及游戏的看法](append/game.md)
   * [获取工具方法](append/get-method.md)
   * [对VPN与代理的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
+  * [宿主机使用VM的代理](append/vm.md)
   * [[转]用Win7，电脑就是路由器](append/win7-wifi.md)
 
 * 文章总结

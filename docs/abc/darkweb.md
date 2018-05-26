@@ -1,6 +1,6 @@
 # \[转\]深网和暗网的区别及基础扫盲
 
-> 转载自：http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/
+> 原文：http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/
 
 ## 什么是深网
 
