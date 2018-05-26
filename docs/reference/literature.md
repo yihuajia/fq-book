@@ -6,7 +6,6 @@
 * [翻墙路由器的原理与实现](https://docs.google.com/document/d/1mmMiMYbviMxJ-DhTyIGdK7OOg581LSD1CZV4XY1OMG8/mobilebasic?pli=1)
 * [详解防火墙ISA策略元素](http://blog.51cto.com/yiding/272872)
 * [TCP/IP四层模型和OSI七层模型](https://www.debugrun.com/a/RNeZIpB.html)
-* [Drcom校园网使用VPN代理](https://blog.csdn.net/x_iya/article/details/33313597)
 * [meek流量混淆原理](https://www.google.com/search?q=meek%E6%B5%81%E9%87%8F%E6%B7%B7%E6%B7%86&oq=meek%E6%B5%81%E9%87%8F%E6%B7%B7%E6%B7%86&aqs=chrome..69i57.7285j0j9&sourceid=chrome&ie=UTF-8)
 * [功夫网原理不靠谱的DNS](https://www.google.com/search?newwindow=1&ei=dljzWqzhDNCYsAfUwKewAQ&q=%E5%8A%9F%E5%A4%AB%E7%BD%91%E5%8E%9F%E7%90%86%E4%B8%8D%E9%9D%A0%E8%B0%B1%E7%9A%84DNS&oq=%E5%8A%9F%E5%A4%AB%E7%BD%91%E5%8E%9F%E7%90%86%E4%B8%8D%E9%9D%A0%E8%B0%B1%E7%9A%84DNS&gs_l=psy-ab.3...76416.76416.0.76712.1.1.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..1.0.0....0.vXslcuUhfQQ)
 * [上网限制和翻墙基本原理](http://blog.021xt.cc/archives/85) 
@@ -26,7 +25,10 @@
 * [VMware的3种网络模式](http://net.zol.com.cn/115/1158058.html)
 * [“深网”和“暗网”的区别及基础扫盲](http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/)
 * [草榴社区这类色情网站为什么封不掉](https://www.leiphone.com/news/201612/isY4iUwVGppRMsZA.html)
-
+* [突破Dr.com校园网客户端对于热点和路由器的限制](https://blog.csdn.net/Angle_Cal/article/details/78249612)
+* [ipfs](https://ipfs.io/ipfs/QmV5ZVQxXURKPDcVDW8WjpLCiQYvNzg173XcB6rYFevoXm/#!index.md)
+* [Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)
+* [对去中心化网络的信仰](https://www.kawabangga.com/posts/2226)
 
 
 
