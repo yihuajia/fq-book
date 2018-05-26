@@ -1,6 +1,6 @@
 # \[转\]用Win7，电脑就是路由器 {docsify-ignore}
 
-> 转载自：[用Win7，电脑就是路由器](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html) 作者：[微软Windows的博客](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html)
+> 原文：[用Win7，电脑就是路由器](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html) 作者：[微软Windows的博客](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html)
 
 在平常上网过程中，难免会遇到一些网络方面的问题，这时候我们就需要查看网络连接的状态，查找问题根源。
 
@@ -76,6 +76,4 @@ netsh wlan start hostednetwork
 除了使用命令设置虚拟WIFI功能，微软还将其编程接口公开了出来，为开发图形化设置程序提供了可能，例如免费小软件Connectify就能直观的设置虚拟Wifi功能，同学们可以在其官方网站下载使用：[www.connectify.me](http://www.connectify.me/)
 
 总之，今天介绍这个功能非常适合家庭或学生宿舍使用，只要提供共享的电脑不休眠不关机，就可以和路由器一样提供网络共享。使用Windows 7还能省掉购买的无线路由器的开销，想一想，很很划算吧？
-
-===================================================
 
