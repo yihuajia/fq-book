@@ -56,9 +56,8 @@
   * [OpenVPN](vpn/openvpn.md)
   * [GateVPN](vpn/gatevpn.md)
 
-* 特别篇章
+* ipfs专题
 
-  * [宿主机使用VM的代理](se/vm.md)
 
 *  科学普及
 
