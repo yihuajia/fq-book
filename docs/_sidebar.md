@@ -57,7 +57,7 @@
   * [GateVPN](vpn/gatevpn.md)
 
 * ipfs专题
-  * [[转]ipfs](ipfs/ipfs/md)
+  * [[转]ipfs](ipfs/ipfs.md)
   * [[转]为什么说去中心化很重要](ipfs/why.md)
   * [[转]对去中心化网络的信仰](ipfs/belief.md)
 
