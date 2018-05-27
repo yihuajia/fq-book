@@ -1,6 +1,6 @@
 # IPFS简单使用
 
-### 安装
+## 安装
 
 打开[ipfs](https://ipfs.io/docs/install/)，选择[getting started with ipfs](https://ipfs.io/docs/getting-started/)
 
@@ -30,7 +30,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_100854.png)
 
-### 上传文件
+## 上传文件
 
 在`files`版块中点击`create folder`创建文件夹，目前除图片外，若要正确上传文件，必须使用文件夹的`hash`加载
 
@@ -54,3 +54,38 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_121017.png)
 
+## 部署静态网站
+
+在这里我已预先提供了一份基于gitbook生成的静态网站文件夹
+
+![](.gitbook/assets/2018-05-27_164203.png)
+
+ 命令行定位到文件夹的上层文件夹，执行 `ipfs add -r web-book` 上传整个目录
+
+![](.gitbook/assets/2018-05-27_171923.png)
+
+ `web-book`文件夹的指令输出的最后一行的哈希值，就是你的网站的根目录
+
+![](.gitbook/assets/2018-05-27_172511.png)
+
+复制最后一行的hash值
+
+![](.gitbook/assets/2018-05-27_173142.png)
+
+输入`localhost:8080/ipfs`后面追加已复制的哈希值即可
+
+![](.gitbook/assets/2018-05-27_173114.png)
+
+虽数据已添加到当前的ipfs节点中，但是并没有同步到ipfs网络；此时还只是离线部署，现在要将它发布在互联网上。
+
+运行了`ipfs add -r web-book`指令的窗口不要关闭，新建一个cmd命令行窗口
+
+![](.gitbook/assets/2018-05-27_180127.png)
+
+进入ipfs文件夹再输入`ipfs.exe daemon`便发布成功了
+
+![](.gitbook/assets/2018-05-27_175819.png)
+
+测试，[https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi/](https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi/)
+
+![](.gitbook/assets/2018-05-27_181051.png)
