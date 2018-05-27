@@ -29,6 +29,7 @@
 * [ipfs](https://ipfs.io/ipfs/QmV5ZVQxXURKPDcVDW8WjpLCiQYvNzg173XcB6rYFevoXm/#!index.md)
 * [Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)
 * [对去中心化网络的信仰](https://www.kawabangga.com/posts/2226)
+* [IPFS+IPNS+个人博客搭建](http://www.liyuechun.org/2017/11/21/ipfs-blockchain-blogger/#52-%E8%8A%82%E7%82%B9ID%E6%9B%BF%E6%8D%A2)
 
 
 

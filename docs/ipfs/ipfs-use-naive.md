@@ -26,7 +26,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_095836.png)
 
- 输入`http://localhost:5001/webui`进入主界面，在`connection`版块中可以看到全球共有267个节点，这一数字也是动态变化的
+输入`http://localhost:5001/webui`进入主界面，在`connection`版块中可以看到全球共有267个节点，这一数字也是动态变化的
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_100854.png)
 
@@ -54,17 +54,19 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_121017.png)
 
+你愿意把它当作无限存储的网盘也可以，只不过任何人包括你在内不能删除它罢了；速度的话，聊天群、问答社区以及贴吧各种宣传，人多了应该自然也就会快一些。
+
 ## 部署静态网站
 
 在这里我已预先提供了一份基于gitbook生成的静态网站文件夹
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_164203.png)
 
- 命令行定位到文件夹的上层文件夹，执行 `ipfs add -r web-book` 上传整个目录
+命令行定位到文件夹的上层文件夹，执行 `ipfs add -r web-book` 上传整个目录
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_171923.png)
 
- `web-book`文件夹的指令输出的最后一行的哈希值，就是你的网站的根目录
+`web-book`文件夹的指令输出的最后一行的哈希值，就是你的网站的根目录
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_172511.png)
 
@@ -78,7 +80,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 虽数据已添加到当前的ipfs节点中，但是并没有同步到ipfs网络；此时还只是离线部署，现在要将它发布在互联网上。
 
-运行了`ipfs add -r web-book`指令的窗口不要关闭，新建一个cmd命令行窗口
+运行了`ipfs add -r` 的指令的窗口不要关闭，新建一个cmd命令行窗口
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_180127.png)
 
@@ -89,3 +91,40 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 测试，[https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi/](https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi/)
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_181051.png)
+
+## IPNS同步更新
+
+由于去中心化的缘故，一但上传也就不能更改了，为此需要ipns的新目录以及节点id映射在新的hash值，用户只需访问`ipfs.io/ipns/节点id`查看相关的更新，也就是说以前的`ipfs.io/ipfs/目录hash值`被废弃了；这也看出来去中心化一个弊端就是产生大量垃圾，虽然链接很长很长...
+
+为了演示方便在`book.json`文件中添加了新的插件，并再次使用了`ipfs add -r web-book`指令使其生成新的hash值。
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_213304.png)
+
+使用`ipfs name publish`后面跟上站点根目录的hash值进行发布操作
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_220829.png)
+
+使用`ifps id`查看节点id
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_221733.png)
+
+`ipfs name resolve`后面追加已查到的节点id
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_222850.png)
+
+此时，已经可以本地访问了，`localhost:8080/ipns/节点id`
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_223735.png)
+
+关掉之前的使用`ipfs daemon`指令的窗口，再打开命令行窗口重新运行该指令即可，由于访问人数不多再加上GFW的干扰，可能会很慢。
+
+这里已提供一个短链接地址：[http://bit.ly/2L1C77f](http://bit.ly/2L1C77f)
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_225417.png)
+
+## 备份
+
+备份这很重要，要是那次重装系统或误删C盘各种以`.`形式的配置文件，那麻烦大了。这也很简单，在`C:\Users\lorem(我的用户名)\.ipfs`下找到`config`文件，拷贝至云盘即可。
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_232208.png)
+
