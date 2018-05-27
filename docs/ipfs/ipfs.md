@@ -1,4 +1,4 @@
-# \[转\]IPFS
+# IPFS
 
 > 原文：[IPFS](https://ipfs.io/ipfs/QmV5ZVQxXURKPDcVDW8WjpLCiQYvNzg173XcB6rYFevoXm/#!index.md) 作者： [Mr.Maple](https://github.com/daijiale)
 
@@ -10,7 +10,7 @@ IPFS全称InterPlanetary File System，中文名：星际文件系统，是一�
 
 IPFS是点对点的超媒体协议，可以让网络更快、更安全、更开放。它是一个面向全球的、点对点的分布式版本文件系统，试图将所有具有相同文件系统的计算设备连接在一起
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/ipfs_io%20%281%29.png)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/ipfs_io.png)
 
 IPFS—又称“星际文件系统”。简单点说，它是一个点对点的分布式文件系统（和比特币技术一样），通过底层协议，可以让存储在IPFS系统上的文件，在全世界任何一个地方快速获取，且不受防火墙的影响（无需网络代理）。
 
