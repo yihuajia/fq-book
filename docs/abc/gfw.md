@@ -1,4 +1,4 @@
-# \[转\]GFW原理和封锁技术
+# GFW原理和封锁技术
 
 > 原文：[GFW原理和封锁技术](https://xuranus.github.io/2017/10/09/GFW%E5%8E%9F%E7%90%86%E5%92%8C%E5%B0%81%E9%94%81%E6%8A%80%E6%9C%AF)&emsp;作者：[XUranus](https://xuranus.github.io/)
 

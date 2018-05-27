@@ -1,4 +1,4 @@
-# \[转\]VMware的3种网络模式
+# VMware的3种网络模式
 
 > 原文：[根本区别在哪里 VMware的3种网络模式](http://net.zol.com.cn/115/1158058.html)&emsp;作者：孙鹏
 

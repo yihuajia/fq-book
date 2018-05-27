@@ -1,4 +1,4 @@
-# \[转\]NAT类型科普及一些简单提升方法
+# NAT类型科普及一些简单提升方法
 
 > 原文：[NAT类型科普及一些简单提升NAT类型的方法](http://www.right.com.cn/forum/thread-199299-1-1.html)&emsp;作者：iSkyun
 

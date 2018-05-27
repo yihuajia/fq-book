@@ -1,4 +1,4 @@
-# \[转\]深网和暗网的区别及基础扫盲
+# 深网和暗网的区别及基础扫盲
 
 > 原文：[深网和暗网的区别及基础扫盲](http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/) 作者：[Chitanda Akari](http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/)
 

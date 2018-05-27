@@ -57,9 +57,11 @@
   * [GateVPN](vpn/gatevpn.md)
 
 * ipfs专题
-  * [[转]ipfs](ipfs/ipfs.md)
-  * [[转]为什么说去中心化很重要](ipfs/why.md)
-  * [[转]对去中心化网络的信仰](ipfs/belief.md)
+
+  * [ipfs简单使用](ipfs/ipfs-use-naive.md)
+  * [ipfs](ipfs/ipfs.md)
+  * [为什么说去中心化很重要](ipfs/why.md)
+  * [对去中心化网络的信仰](ipfs/belief.md)
 
 
 *  科学普及
@@ -67,13 +69,13 @@
   * [软件互联协议](abc/connection.md)
   * [DNS劫持与污染](abc/4dns.md)
   * [网页代理的原理](abc/web-proxy-x.md)
-  * [[转]VPN隧道协议](abc/4vpn.md)
-  * [[转]科学上网原理](abc/1190000011485579.md)
-  * [[转]GFW原理和封锁技术](abc/gfw.md)
-  * [[转]meek网桥的技术原理](abc/meek.md)
-  * [[转]VMware的3种网络模式](abc/3vm.md)
-  * [[转]nat类型科普以及提升方法](abc/4nat.md)
-  * [[转]深网和暗网的区别及基础扫盲](abc/darkweb.md)
+  * [VPN隧道协议](abc/4vpn.md)
+  * [科学上网原理](abc/1190000011485579.md)
+  * [GFW原理和封锁技术](abc/gfw.md)
+  * [meek网桥的技术原理](abc/meek.md)
+  * [VMware的3种网络模式](abc/3vm.md)
+  * [nat类型科普以及提升方法](abc/4nat.md)
+  * [深网和暗网的区别及基础扫盲](abc/darkweb.md)
 
 * 细节补充
 
@@ -87,7 +89,7 @@
   * [对VPN与代理的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
   * [宿主机使用VM的代理](append/vm.md)
-  * [[转]用Win7，电脑就是路由器](append/win7-wifi.md)
+  * [用Win7，电脑就是路由器](append/win7-wifi.md)
 
 * 文章总结
 

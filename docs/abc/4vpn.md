@@ -1,4 +1,4 @@
-# [转]VPN隧道协议
+# VPN隧道协议
 
 > 原文：[VPN隧道协议](https://blog.csdn.net/cymm_liu/article/details/16889457)&emsp;作者：[长眼慢慢](https://blog.csdn.net/cymm_liu)
 
