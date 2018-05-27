@@ -1,4 +1,4 @@
-# \[转\]为什么说去中心化很重要
+# 为什么说去中心化很重要
 
 > 原文：[Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)  作者：[Chris Dixon](https://www.cdixon.org/about)
 
