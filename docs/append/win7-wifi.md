@@ -23,17 +23,17 @@
 
 这么诱人的功能，现在赶紧教给大家：
 
-1.      **以管理员身份运行命令提示符**
+1. **以管理员身份运行命令提示符**
 
 因为下面的步骤必须在管理员权限下运行，因此我们从开始菜单找到“命令提示符”，或直接键入cmd快速搜索，右键单击它，选择“以管理员身份运行”，在弹出的用户控制窗口中单击“是”。还有一种方法就是按住Ctrl和Shift键直接单击该快捷方式，更简单哦。
 
-**2.    ** **启用并设定“虚拟Wifi网卡”模式**
+2. **启用并设定“虚拟Wifi网卡”模式**
 
 运行以下命令启用虚拟无线网卡（相当于打开路由器）：
 
 netsh wlan set hostednetwork mode=allow ssid=”Win7 AP WOW!” key=wifimima
 
-![](http://s1.sinaimg.cn/middle/6286984et8cd412c23040&690)  
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/cd41e690.jpg)  
 这个命令中有三个参数：
 
 Mode：是否启用虚拟Wifi网卡，改为disallow则为禁用，虚拟网卡即会消失。
@@ -44,16 +44,16 @@ Key：指定无线网络的密码。该密码用于对无线网进行安全的WP
 
 以上三个参数其实可以单独使用，例如只使用 mode=disallow 可以直接禁用虚拟Wifi网卡。
 
-**3.    ** **启用“Internet连接共享（ICS）”**
+3. **启用“Internet连接共享（ICS）”**
 
 为了与其他计算机或设备共享已连接的互联网，我们需要启用“Internet连接共享”功能。打开“网络连接”窗口，右键单击已连接到Internet的网络连接，选择“属性”，切换到“共享”选项卡，选中其中的复选框，并选择允许其共享Internet的网络连接在这里即我们的虚拟Wifi网卡：
 
-![](http://s2.sinaimg.cn/middle/6286984et8cd41483de01&690)  
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/d1de690.jpg)  
 确定之后，提供共享的网卡图标旁会出现“已共享”标志，表示“Internet连接共享”向虚拟无线网卡开通了：
 
-![](http://s10.sinaimg.cn/middle/6286984et8cd4156172f9&690)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/e2f690.jpg)
 
-**4.    ** **开启无线网络**
+4. **开启无线网络**
 
 继续在命令提示符中运行以下命令：
 
