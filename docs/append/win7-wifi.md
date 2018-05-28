@@ -1,4 +1,4 @@
-# 用Win7，电脑就是路由器 {docsify-ignore}
+# 用Win7，电脑就是路由器
 
 > 原文：[用Win7，电脑就是路由器](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html) 作者：[微软Windows的博客](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html)
 
