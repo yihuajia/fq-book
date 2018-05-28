@@ -1,5 +1,7 @@
 # Betternet
 
+!> 有位朋友在看了此教程后连Betternet官网都找不到，我就不点名了，请点击[官网链接](https://www.betternet.co/)
+
 点击
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-29_022009.png)

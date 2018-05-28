@@ -14,7 +14,7 @@ rabbit也就是某些人常称的兔子，是视频应用社交分享平台，�
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-29_165325.png)
 
-网速比香港记者还快
+网速比香港记者还快，刷梅林路由这类修电脑动手实操性较强的，可在这进行在线观看
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-29_170242.png)
 

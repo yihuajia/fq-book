@@ -85,7 +85,7 @@
   * [关于封锁IP的认为](append/block-ip.md)
   * [对于校园网的解读](append/tcw.md)
   * [论及游戏的看法](append/game.md)
-  * [获取工具方法](append/get-method.md)
+  * [获取工具的方式](append/get-method.md)
   * [对VPN与代理的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
   * [宿主机使用VM的代理](append/vm.md)

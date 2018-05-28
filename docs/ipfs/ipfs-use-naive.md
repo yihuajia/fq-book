@@ -1,5 +1,7 @@
 # IPFS简单使用
 
+!> 在看了有位该书读者的邮箱来信后，确实若是被勒令这不可抗拒的因素删除仓库也是毫无办法，何况我已经因其他缘由被迫删除好几次仓库，而这次就需要着手准备使用ipfs这类去中心化的网络应用了
+
 ## 安装
 
 打开[ipfs](https://ipfs.io/docs/install/)，选择[getting started with ipfs](https://ipfs.io/docs/getting-started/)

@@ -54,6 +54,3 @@
 
     用浏览器代理插件完成科学上网，操作很简单也很方便而且效果还不错，满足日常需求
 
-至此已了解多种科学上网的工具，刷梅林路由这类修电脑动手实操性较强的，可去YouTube在线观看。以下是科学上网方式图：
-
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-05_154505.png)
