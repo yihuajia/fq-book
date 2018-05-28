@@ -5,3 +5,10 @@
 花钱买VPS主机用来玩游戏的话真是得不偿失，使用代理很折腾关心各类协议之间的转发，而且游戏厂商对代理的限制等方面；使用可自搭配置的VPN被封杀的概率又是相当的高，比花大价钱买代理更不可靠，这两者都还不如直接购买大厂的VPN服务划算的多。
 
 而且写了这么多方式与技巧应该是足矣应付墙了，如有兴趣了解关于VPS的搭建可去YouTube观看详细的教程视频，国产的VPS虽然有国际版但是还是极其不建议使用，这里就给出我个认为较为合理的[VPS主机厂商评测](https://www.10besty.com/best-vps-hosting-services/#one)的链接做个参考，其实亚马逊的aws、微软的azure都很不错。
+
+顺带着也给些提示：
+* [vultr](https://www.vultr.com/)各方面来说性价比较高还支持支付宝付款
+* [aws](https://aws.amazon.com/)从目前的条款服务内容来看可以免费使用一年
+* 一些VPS厂商有提前扣费的检测机制，生成visa信用卡不可行
+* 购买[bandwagonhost](https://bandwagonhost.com/)时不要挂代理，不然会被判定为欺诈订单，无法付款
+* 如需使用azure[请点击此官网](https://azure.microsoft.com/zh-cn/)，请勿进入有政府背景的企业所代理的网页www.azure.cn
