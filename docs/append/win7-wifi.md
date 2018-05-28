@@ -61,15 +61,15 @@ netsh wlan start hostednetwork
 
 即可开启我们之前设置好的无线网络（相当于打开路由器的无线功能。同理，将start改为stop即可关闭该无线网）。
 
-![](http://s13.sinaimg.cn/middle/6286984et8cd416706aec&690)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/et6ae690.jpg)
 
 可以看到，虚拟无线网卡已经开启了我们所指定的无线网络，其IP地址等属性是由“Internet连接共享”服务分配的，因此比较特别：
 
-![](http://s7.sinaimg.cn/middle/6286984et8cd417ec8826&690)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/c17ec690.jpg)
 
 一切准备就绪，最后只要在需要联网的的电脑或手机上连接该无线网络，就可以直接畅游互联网了：
 
-![](http://s10.sinaimg.cn/middle/6286984et8cd419ae8a19&690)
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/dcd690.jpg)
 
 需要多说一点的是，“虚拟Wifi网卡”，需要真实网卡的驱动程序专门针对Windows 7设计开发。所幸只要通过“Windows 7 徽标认证”的无线网卡驱动程序都支持该模式，我们在选购无线网卡时直接寻找是否带有该标志即可。如果在运行mode=allow命令后，网络连接中没有出现虚拟无线网卡，就说明真实网卡不支持该功能。大家可以将网卡驱动升级到最新的Windows 7版本试试看。
 
