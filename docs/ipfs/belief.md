@@ -1,4 +1,4 @@
-# \[转\]对去中心化网络的信仰
+# 对去中心化网络的信仰
 
 > 原文：[对去中心化网络的信仰](https://www.kawabangga.com/posts/2226) 作者：[卡瓦邦噶！](https://www.kawabangga.com/)
 
