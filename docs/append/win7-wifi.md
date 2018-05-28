@@ -4,19 +4,19 @@
 
 在平常上网过程中，难免会遇到一些网络方面的问题，这时候我们就需要查看网络连接的状态，查找问题根源。
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/a12d690.jpg)  
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/a12d690.jpg)  
 在Windows XP中，大家这时候都会从开始菜单或控制面板打开“网络连接”窗口来检查网络问题，但对于一个Windows 7 新手来说，找到这个窗口似乎有点困难，在控制面板中搜索“网络连接”也找不到它。这时候，大家应该想到的就是上次介绍过的“网络和共享中心”，因为这里集中了网络相关的常规配置，在这里能不能找到线索呢？
 
 试试点击左上方的“更改适配器设置”任务吧，瞧，“网络连接”窗口原来藏在这里，这时候我们就可以和XP中一样查看到计算机中网卡的设置和状态了：
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s9.sinaimg.cn/middle/6286984et8cd40f9d0e88&690)  
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/e88p690.jpg)  
 但有的同学可能会发现，在这些网卡当中多了一个叫“Microsoft Virtual WiFi Miniport Adapter”的东西，按名字来看似乎是微软的虚拟Wifi网卡。电脑中怎么会无缘无故多了这么一个东西呢？难道又一个Windows 7的隐藏功能被发现啦？
 
 没错，这的确是Windows 7 中深藏不漏的新功能——“虚拟 Wifi”，不好意思在前面给大家卖了很大一个关子。简单来说，Windows 7能在现有无线网卡的基础上再虚拟出一块无线网卡，支持网络共享，让我们的电脑变成无线路由器哦！看来如今“虚拟”真是无处不在啊。
 
 有的同学可能知道，在此之前，其实也可以建立临时网络向其他Wifi设备共享互联网啊，虚拟 Wifi 网卡有什么新的优势呢？
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s10.sinaimg.cn/middle/6286984et8cd411140169&690)  
+![](http://s10.sinaimg.cn/middle/6286984et8cd411140169&690)  
 传统的临时无线网（即Ad Hoc模式）是一种点对点网络，类似于有线网中的“双机互联”，虽然也能实现互联网共享，但主要用于两个设备临时互联，并且有的设备（如采用Android系统的设备）并不支持连接到临时无线网。还有一个很严重的问题，由于一块无线网卡只能连接到一个无线网络，因此如果通过无线网卡连接到Internet，就不能再使用这个无线网卡建立临时网络，共享 Internet 了。
 
 而Windows 7 中的虚拟 Wifi 功能可以在一块真实无线网卡基础上再虚拟出一块网卡，实现无线路由器的 AP功能，解决了临时网络的所有问题。
@@ -33,7 +33,7 @@
 
 netsh wlan set hostednetwork mode=allow ssid=”Win7 AP WOW!” key=wifimima
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s1.sinaimg.cn/middle/6286984et8cd412c23040&690)  
+![](http://s1.sinaimg.cn/middle/6286984et8cd412c23040&690)  
 这个命令中有三个参数：
 
 Mode：是否启用虚拟Wifi网卡，改为disallow则为禁用，虚拟网卡即会消失。
@@ -48,10 +48,10 @@ Key：指定无线网络的密码。该密码用于对无线网进行安全的WP
 
 为了与其他计算机或设备共享已连接的互联网，我们需要启用“Internet连接共享”功能。打开“网络连接”窗口，右键单击已连接到Internet的网络连接，选择“属性”，切换到“共享”选项卡，选中其中的复选框，并选择允许其共享Internet的网络连接在这里即我们的虚拟Wifi网卡：
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s2.sinaimg.cn/middle/6286984et8cd41483de01&690)  
+![](http://s2.sinaimg.cn/middle/6286984et8cd41483de01&690)  
 确定之后，提供共享的网卡图标旁会出现“已共享”标志，表示“Internet连接共享”向虚拟无线网卡开通了：
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s10.sinaimg.cn/middle/6286984et8cd4156172f9&690)
+![](http://s10.sinaimg.cn/middle/6286984et8cd4156172f9&690)
 
 **4.    ** **开启无线网络**
 
@@ -61,15 +61,15 @@ netsh wlan start hostednetwork
 
 即可开启我们之前设置好的无线网络（相当于打开路由器的无线功能。同理，将start改为stop即可关闭该无线网）。
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s13.sinaimg.cn/middle/6286984et8cd416706aec&690)
+![](http://s13.sinaimg.cn/middle/6286984et8cd416706aec&690)
 
 可以看到，虚拟无线网卡已经开启了我们所指定的无线网络，其IP地址等属性是由“Internet连接共享”服务分配的，因此比较特别：
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s7.sinaimg.cn/middle/6286984et8cd417ec8826&690)
+![](http://s7.sinaimg.cn/middle/6286984et8cd417ec8826&690)
 
 一切准备就绪，最后只要在需要联网的的电脑或手机上连接该无线网络，就可以直接畅游互联网了：
 
-![&#x7528;Win7&#xFF0C;&#x7535;&#x8111;&#x5C31;&#x662F;&#x8DEF;&#x7531;&#x5668;&#xFF01;](http://s10.sinaimg.cn/middle/6286984et8cd419ae8a19&690)
+![](http://s10.sinaimg.cn/middle/6286984et8cd419ae8a19&690)
 
 需要多说一点的是，“虚拟Wifi网卡”，需要真实网卡的驱动程序专门针对Windows 7设计开发。所幸只要通过“Windows 7 徽标认证”的无线网卡驱动程序都支持该模式，我们在选购无线网卡时直接寻找是否带有该标志即可。如果在运行mode=allow命令后，网络连接中没有出现虚拟无线网卡，就说明真实网卡不支持该功能。大家可以将网卡驱动升级到最新的Windows 7版本试试看。
 
