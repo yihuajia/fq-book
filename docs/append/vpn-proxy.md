@@ -1,54 +1,59 @@
-# 对VPN与代理的整合{docsify-ignore-all}
+# 对VPN与代理的整合
 
 通常来说，我个人的科学上网主要都是浏览网页与下载上传资料以及聊聊天，也不玩各类游戏平台的3A多人在线网游，基本上也是足足的够用了；但你需要玩游戏的话，直接买VPN吧，一般来说购买的VPN基本不会对网络类型、使用流量等各个方面做出严格的限制。如果访问不了主页面可以用DNSCrypt打开被污染的官网站点购买。
 
-对VPN与代理软件的整合，这就是涉及到一些个人的兴趣爱好了以及个人需求了；一般来说，客户端游戏都太大了且上手也需要些时间很耗费精力，还有就是国情原因了；综上所述，还是更多的偏向于休闲的页游，找回年少时贪玩的你，这对于我来说那也就足够了。关于更多Windows不错的软件，请看这个项目[Awesome Windows](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
+科学上网的工具有很多，方式也不少，受到各方面不同程度的封杀也很多；随着各个方面的管制加深，随时面临断网的单一上网方式，已经不能满足需要了；因此，掌握科学上网方式与技巧并有效的结合各种代理软件使用就显得尤为必要了。举个例子，通过opera访问ss分享站点，下载相关chrome代理插件或VPN，像这样组成一个个互相连接的节点，相对来说就不是那么容易断网了。
+
+对VPN与代理软件的整合，这就是涉及到一些个人的兴趣爱好了以及个人需求了；就我个人而言，免费的科学上网还是用代理比较合适，比起免费或试用性质的VPN不易被封杀、速度快、流量限制较为宽松；不过付费的话最好还是选VPN，因为拥有可靠的企业级服务更抗封杀，也免去了使用代理而去关心转发协议的各种折腾。
 
 说回正题，我个人使用的VPN和代理软件的组合如下：
 
-**VPN**
+* VPN
 
-* protonVPN
-* windscribe
-* surfEasy
-* speedify
-* betternet
+    * protonVPN
+    * windscribe
+    * surfEasy
+    * speedify
+    * betternet
 
-若有一个VPN不能正常登录，可以结合其他VPN共同使用；除了betternet和speedify限制游戏与下载行为外，其余的VPN均未做出严格的网络类型上的限制
+    若有一个VPN不能正常登录，可以结合其他VPN共同使用；除了betternet和speedify限制游戏与下载行为外，其余的VPN均未做出严格的网络类型上的限制
 
-**代理软件**
+* socks5代理软件
 
-* ss
-* ssr
-* v2rayN
+    * ss
+    * ssr
+    * v2rayN
 
-3个常用且各类账号分享站点支持最多的装机必备科学上网代理，至于XX-Net与goAgent实在太屎了，还不如用brook
+    3个常用且各类账号分享站点支持最多的装机必备科学上网代理，至于XX-Net与goAgent实在太屎了，还不如用brook
 
-**SSH客户端**
+* http协议代理转发器
 
-* bitvise ssh client
+    * privoxy
 
-国外有一些很不错的创建SSH账号的站点，加密和速度都还是不错的，配上此SSH客户端直观的协议端口转发很容易上手
+    遇上只支持http协议的浏览器，这时就可以用privoxy转发socks5端口来完成上网浏览操作，游戏UDP转发的话可能需要SocksCap64之类的代理转发软件
 
-**http协议代理转发器**
+* SSH客户端
 
-*  privoxy
+    * bitvise ssh client
 
-遇上没有做端口转发的代理软件，这时就可以用支持http代理的privoxy转发socks5端口，完成上网浏览操作
+    国外有一些很不错的创建SSH账号的站点，加密和速度都还是不错的，配上此SSH客户端直观的协议端口转发很容易上手
 
-**浏览器**
+* 浏览器
 
-* opera
-   *  extension source viewer
+    * opera
+        *  extension source viewer
 
-opera使用extension source viewer扩展下载chrome代理插件，再安装到chrome浏览器还是很不错的
+    opera使用extension source viewer扩展下载chrome代理插件，再安装到chrome浏览器还是很不错的
 
-**chrome代理插件**
+* chrome代理插件
 
-* ininja
-* IP Unblock
-* Tuxler
-* switchyomega
+    * ininja
+    * IP Unblock
+    * Tuxler
+    * switchyomega
 
-用浏览器的代理插件完成科学上网，基本上很傻瓜化，操作很简单也很方便且效果也还不错，满足日常需求
+    用浏览器代理插件完成科学上网，操作很简单也很方便而且效果还不错，满足日常需求
 
+至此已了解多种科学上网的工具，刷梅林路由这类修电脑动手实操性较强的，可去YouTube在线观看。以下是科学上网方式图：
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-05_154505.png)

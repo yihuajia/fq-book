@@ -4,7 +4,6 @@
 
 首先百度了解到什么是“[**NAT**](http://baike.baidu.com/item/nat)”，看了那么多我们大概也知其一些的基本知识，比如说[**定义**](http://baike.baidu.com/item/nat)、[**功能**](http://baike.baidu.com/item/nat#1)、[**实现方式**](http://baike.baidu.com/item/nat#2)及[**类型**](http://baike.baidu.com/item/nat#7)
   
-  
 提升NAT类型的好处：  
 
 * 浏览网页、观看视频、游戏等更顺畅，下载速度更稳定快速，  
@@ -13,10 +12,10 @@
   
 要提升NAT类型，我们必须知道NAT的4个类型它们分别对应：  
 
-* **NAT1 **→ **Full Cone**  NAT1这是最宽松的网络环境，你想做什么
-* **NAT2 **→ **Address-Restricted Cone** NAT2和NAT3对看网页、游戏及下载都没有过多的限制
-* **NAT3 **→ **Port-Restricted Cone** 
-* **NAT4 **→ **Symmetric** 这是最严格的网络环境，可能会玩不了游戏、下载都没速度
+* **NAT1 **→ **Full Cone**&emsp;  NAT1这是最宽松的网络环境，你想做什么
+* **NAT2 **→ **Address-Restricted Cone** &emsp;浏览网页与游戏及下载都没过多限制
+* **NAT3 **→ **Port-Restricted Cone** &emsp;同上，但游戏厂商会限制此NAT类型的联机
+* **NAT4 **→ **Symmetric** &emsp;这是最严格的网络环境，可能会玩不了游戏、下载都没速度
   
 说些比较重要的前话，路由器少一层是一层，这样越有可能得到NAT1和NAT2这两类NAT类型，一般建议家里的网路是以下两种拓扑类型：  
 1. 光猫桥接→主路由（拨号连接外网用）→副路由（纯AP模式，扩展信号）  
@@ -31,7 +30,6 @@
 * 一般建议有Full Cone、uPnP等就不要开DMZ了，除非你是PS4/XBox这类游戏主机要提升NAT类型
 
 * 如果没有以上功能，那可以找下有没有**[DMZ](http://baike.baidu.com/item/dmz)**功能并启用它，将你要提升NAT类型的主机IP地址设置好。
-
 
 * 在Windows上把以下三个服务设置为自动启动，并启动该服务：   
 

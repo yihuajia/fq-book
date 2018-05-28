@@ -1,4 +1,4 @@
-* 关于此书
+* 关于本书
 
   * [前言](README.md)
 
@@ -91,9 +91,9 @@
   * [宿主机使用VM的代理](append/vm.md)
   * [用Win7，电脑就是路由器](append/win7-wifi.md)
 
-* 文章总结
+* 此书后记
 
-  * [总结](summarize.md)
+  * [后记](postscript.md)
 
 * 参考文献
 

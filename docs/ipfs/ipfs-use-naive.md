@@ -62,7 +62,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_164203.png)
 
-命令行定位到文件夹的上层文件夹，执行 `ipfs add -r web-book` 上传整个目录
+命令行定位到文件夹的上层文件夹，执行`ipfs add -r web-book`上传整个目录
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_171923.png)
 
@@ -124,7 +124,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ## 备份
 
-备份这很重要，要是那次重装系统或误删C盘各种以`.`形式的配置文件，那麻烦大了。这也很简单，在`C:\Users\lorem(我的用户名)\.ipfs`下找到`config`文件，拷贝至云盘即可。
+备份这很重要，但也很简单，在`C:\Users\lorem\.ipfs`下找到`config`文件并将其拷贝至云盘即可,lorem是我的用户名
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_232208.png)
 
