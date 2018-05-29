@@ -4,9 +4,9 @@
 
 * 阅读须知
   
-  * [4GFW](notice/4gfw.md)
-  * [注意事项](notice/warnning.md)
-  * [隐私防护](notice/nsfw.md)
+  * [4GFW](look/4gfw.md)
+  * [注意事项](look/notice.md)
+  * [隐私防护](look/nsfw.md)
 
 * 搜索引擎
   
@@ -89,6 +89,7 @@
   * [对VPN与代理的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
   * [宿主机使用VM的代理](append/vm.md)
+  * [零网简要的补充介绍](append/4zeronet.md)
   * [用Win7，电脑就是路由器](append/win7-wifi.md)
 
 * 此书后记

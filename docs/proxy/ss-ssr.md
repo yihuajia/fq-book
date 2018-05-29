@@ -1,6 +1,6 @@
 # SS/SSR
 
-!> 如需对Shadowsocks有着大体的认知，请[阅览该处](/abc/1190000011485579?id=shadowsocks)
+!> 简单来说，代理与VPN的区别就在于代理不会虚拟一块独立的网卡，如需对Shadowsocks细节原理有大致的认知，请[阅览该处](/abc/1190000011485579?id=shadowsocks)
 
 ## Shadowsocks
 
