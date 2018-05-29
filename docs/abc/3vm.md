@@ -8,21 +8,29 @@
 
 桥接网络拓扑图
 
+<!-- ![](https://ipfs.io/ipfs/QmaM994hn7RC2gT8qd3ubxqrTiURzsUrhYCwu2JJc68ERN?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161016.png)
 
 那么物理网卡和虚拟网卡就相当于处于同一个网段，虚拟交换机就相当于一台现实网络中的交换机。所以两个网卡的IP地址也要设置为同一网段。
 
 物理网卡IP地址
 
+<!-- ![](https://ipfs.io/ipfs/QmTksR6g9wBZptxJzXcVspXtzUppUFfSj9d5W2k74iGWv8?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161401.png)
 
 虚拟网卡IP地址
+
+<!-- ![](https://ipfs.io/ipfs/QmemKU954PgTQaBQ4jg3Wa8A7tk74wAAHf4XLEpMiqg1ZW?4.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161708.png)
 
 我们看到，物理网卡和虚拟网卡的IP地址处于同一个网段，子网掩码、网关、DNS等参数都相同。两个网卡在拓扑结构中是相对独立的。
 
 ping结果
+
+<!-- ![](https://ipfs.io/ipfs/QmcwWPpLZXN7yU5KmPgA9pJNV3gPefNH3ot87GjDQxZUUp?3.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_161826.png)
 
@@ -34,6 +42,8 @@ ping结果
 
 NAT网络模式拓扑图
 
+<!-- ![](https://ipfs.io/ipfs/QmT4kUS8cMC7g9VoZMmro4rf3vjRc84f6MagkYuZQcmY3u?2.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162012.png)
 
 VMware Network Adepter VMnet8虚拟网卡的作用仅限于和VMnet8网段进行通信，它不给VMnet8网段提供路由功能，所以虚拟机虚拟一个NAT服务器，使虚拟网卡可以连接到Internet。在这种情况下，我们就可以使用端口映射功能，让访问主机80端口的请求映射到虚拟机的80端口上。
@@ -42,10 +52,13 @@ VMware Network Adepter VMnet8虚拟网卡的IP地址是在安装VMware时由系�
 
 NAT虚拟网卡IP地址
 
+<!-- ![](https://ipfs.io/ipfs/Qmd2KUrSiviXCv34mUha2dfV7MzSbGi9foPm5yiKK7ATF1?4.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162216.png)
 
-  
 物理网卡IP地址
+
+<!-- ![](https://ipfs.io/ipfs/QmXWg73AiRBuE5i2auxwPicmfYUwsnFd4GhbH1qGuhhDxi?3.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162302.png)
 
@@ -61,15 +74,21 @@ NAT虚拟网卡IP地址
 
 host-only模式拓扑图
 
+<!-- ![](https://ipfs.io/ipfs/QmdsKse5xP3BRDMy7dGQPWmGNcCrFF9RVYtgyYzPVPqoE9?1.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162359.png)
 
 同NAT一样，VMware Network Adepter VMnet1虚拟网卡的IP地址也是VMware系统指定的，同时生成的虚拟DHCP服务器和虚拟网卡的IP地址位于同一网段，但和物理网卡的IP地址不在同一网段。
 
  Host-Only虚拟网卡IP地址
 
+<!-- ![](https://ipfs.io/ipfs/QmeBhyZXNcraRFGp2evnAK74NRSYNpgKgeo2g5M26mG63g?2.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162504.png)
 
 物理网卡IP地址
+
+<!-- ![](https://ipfs.io/ipfs/QmUn6ZwscVPmigSNfxABezVX8A3Qeekqt7Ss4pDGYKGrR7?0.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-13_162617.png)
 

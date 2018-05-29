@@ -4,6 +4,8 @@
 
 去中心化是与中心化相对的一个概念，简单的来说中心化的意思，是中心决定节点。节点必须依赖中心，节点离开了中心就无法生存。去中心化恰恰相反，在一个分布有众多节点的系统中，每个节点都具有高度自治的特征，每一个节点都是一个“小中心”。
 
+<!-- ![](https://ipfs.io/ipfs/Qmcvrheq3DvMow9RKwtha145WaCztdYNszvTbKi1UzwHMj?3.jpg) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/6cmad.jpg)
 
 随着网络服务形态的多元化，去中心化网络模型越来越清晰，也越来越成为可能。本文从**互联网的发展阶段，去中心化的优势，以及对去中心化趋势的预测**等角度，解释了去中心化的重要性。
@@ -29,6 +31,8 @@
 **通常，大众对去中心化这一概念存在着广泛的误解。**例如有时会说，加密网络主张去中心化的原因是为了抵制政府审查，或者是因为自由主义的政治观点，然而这并不是去中心化如此重要的主要原因。
 
 我们先来看看中心化平台的问题。这样的平台遵循着可预测的生命周期。最开始，互联网创业公司会尽其所能吸引用户和第三方人员，比如开发人员，企业和媒体组织，通过这种方式让他们的服务更有价值，因为“平台”的定义是具有多边网络效应的系统。在下图中，随着平台影响力的扩大使S曲线不断上升，这些平台对用户和第三方的掌控力也稳步增长。
+
+<!-- ![](https://ipfs.io/ipfs/QmSe3ztTjKYc8trh9KP3daZABHdD6DNzuYBP3faEPsM8mh?0.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/xx001x_.png)
 

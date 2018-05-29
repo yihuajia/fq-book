@@ -45,13 +45,16 @@
 
 以上能弄的都弄了，网络环境就会越好甚至NAT1都没有问题。这是我通过以上设置，进行NAT穿透+公网IP一枚。
 
-测得的结果：  
-![](http://www.right.com.cn/forum/data/attachment/forum/201611/10/132059dd4rfiilqz4e4s4p.jpg)   
+测得的结果： 
 
-  
+![](https://ipfs.io/ipfs/QmZNLVAGW4wUrd1qpRKhj4JzXei9PhKJ7z9HTnjvp3qYbw?0.jpg)   
+
+<!-- ![](http://www.right.com.cn/forum/data/attachment/forum/201611/10/132059dd4rfiilqz4e4s4p.jpg)   -->
 最后附上NAT类型测试工具：  
-![](http://www.right.com.cn/forum/static/image/filetype/zip.gif) [NAT类型测试.zip](http://www.right.com.cn/forum/plugin.php?id=imc_attachad:ad&aid=MTQzODYzfDQxMGQxODFmfDE1MjU4MzkxMjZ8MHwxOTkyOTk%3D) 
-  
+
+![](https://ipfs.io/ipfs/Qmd9HsHjV3M2Zy4d5BzAuBNcTftMe7JyuJttLRUfzptcS3?4.gif) [NAT类型测试.zip](http://down7.pc6.com/xy3/NatTypeTester.zip) 
+
+<!-- ![](http://www.right.com.cn/forum/static/image/filetype/zip.gif) [NAT类型测试.zip](http://www.right.com.cn/forum/plugin.php?id=imc_attachad:ad&aid=MTQzODYzfDQxMGQxODFmfDE1MjU4MzkxMjZ8MHwxOTkyOTk%3D)  -->
 PS:  
 如果能找运营商要到外网IP，这是最好的；没有公网IP的话，可以打电话给客服态度强硬点、最好一开始就把客服的工号也要了并说“我家宽带怎么没公网IP啊，我需在家里装远程监控，没有公网IP的话不行，如果不给我公网IP，我只好退宽带换别家的了，不给就投诉你”；但如果还是要不到公网IP，能提升到NAT2也不错了。
 

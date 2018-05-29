@@ -10,6 +10,8 @@ IPFS全称InterPlanetary File System，中文名：星际文件系统，是一�
 
 IPFS是点对点的超媒体协议，可以让网络更快、更安全、更开放。它是一个面向全球的、点对点的分布式版本文件系统，试图将所有具有相同文件系统的计算设备连接在一起
 
+<!-- ![](https://ipfs.io/ipfs/QmUSeaFSDkhz82dDfE1XbVZ7GEb7WntiZNYKRg3wfMN3kp?1.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/ipfs_io.png)
 
 IPFS—又称“星际文件系统”。简单点说，它是一个点对点的分布式文件系统（和比特币技术一样），通过底层协议，可以让存储在IPFS系统上的文件，在全世界任何一个地方快速获取，且不受防火墙的影响（无需网络代理）。
@@ -23,6 +25,8 @@ IPFS—又称“星际文件系统”。简单点说，它是一个点对点的�
 ### IPFS与HTTP的区别
 
 #### HTTP的四大痛点
+
+<!-- ![](https://ipfs.io/ipfs/QmU6CuRkqHETWhoSi8JV4SUAPKADhLBUkva7kUvnp4DGb3?0.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/ipfs-is-the-distributed-web.png)
 
@@ -79,6 +83,8 @@ IPFS的网络上运行着一条区块链，即用来存储互联网文件的哈�
 通过使用代币（FileCoin）的激励作用，让各节点有动力去存储数据。 Filecoin 是一个由加密货币驱动的存储网络**。矿工通过为网络提供开放的硬盘空间获得Filecoin，而用户则用Filecoin来支付在去中心化网络中储存加密文件的费用**。
 
 ### IPFS工作原理
+
+<!-- ![](https://ipfs.io/ipfs/QmZ7t61ZkJESFhJCsifMAkXtof6dZvcczyx7J4WQDnBsAf?0.jpg) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/ipfswork.jpg)
 

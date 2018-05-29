@@ -10,6 +10,8 @@
 
 在meek之前，tor开源社区已经出过好几款流量混淆插件。以obfsproxy为例：
 
+<!-- ![](https://ipfs.io/ipfs/QmWbJAtptajEo98PHticEVyGDQewFyEYuq7hv6w9AbE8uh?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-10_164713.png)
 
 图中的tor client和obfsproxy client在你本机，他们要正常工作就需要先连接到obfsproxy server。虽然GFW无法区分被obfsproxy混淆过的流量，但是因为全球的obfsproxy server数量是有限的，GFW可以把所有的obfsproxy server都加入IP黑名单。如此一来，就足以让obfsproxy失效。  
@@ -17,6 +19,8 @@
 meek client也是跟tor client
 
 一起运行在你本机。下面这张是meek的示意图：
+
+<!-- ![](https://ipfs.io/ipfs/QmRD4PGd2W2PotzuukKbMnbU5gHAijrnXzTxpCbUQT5fGq?1.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-10_171318.png)
 

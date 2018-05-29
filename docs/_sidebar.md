@@ -60,8 +60,8 @@
 
   * [ipfs](ipfs/ipfs.md)
   * [ipfs简单使用](ipfs/ipfs-use-naive.md)
-  * [为什么说去中心化很重要](ipfs/why.md)
   * [对去中心化网络的信仰](ipfs/belief.md)
+  * [为什么说去中心化很重要](ipfs/why.md)
 
 
 *  科学普及

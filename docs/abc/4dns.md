@@ -25,7 +25,9 @@ DNS是计算机域名系统 \(Domain Name System 或Domain Name Service\) 的缩
 
 [原理图来源](http://www.cnblogs.com/yanxinjiang/p/7486314.html)
 
-![image](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/95001.png)
+<!-- ![](https://ipfs.io/ipfs/Qmdf4EHCYHXm9mQVZVwqknR9Apbw8jNLrtgQmQmte5Ncjf?1.png) -->
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/95001.png)
 
 ## Host
 

@@ -2,9 +2,13 @@
 
 一个IP指向多个地址，污染一个域名还有另一个域名指向。
 
+<!-- ![](https://ipfs.io/ipfs/QmPkd76acmkTYoi92Bxtb5G5QezHzAoQN8YSmJSz4f2G1v?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-02_002837.png)
 
 IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议访问。
+
+<!-- ![](https://ipfs.io/ipfs/Qmf8D6wegWbtbKviSJU1w5tzhn7sYDqJJ7fDtWze77vGaF?0.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-02_002021.png)
 

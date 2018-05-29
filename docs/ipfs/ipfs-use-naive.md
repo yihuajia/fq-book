@@ -1,34 +1,48 @@
 # IPFS简单使用
 
-!> 在看了有位该书读者的邮箱来信后，确实若是被勒令这不可抗拒的因素删除仓库也是毫无办法，何况我已经因其他缘由被迫删除好几次仓库，而这次就需要着手准备使用ipfs这类去中心化的网络应用了
+!> 在看了有位该书读者的邮箱来信后，确实，若是被勒令这不可抗拒的因素删除仓库也是毫无办法，何况我已经因其他缘由被迫删除好几次仓库，而这次就需要着手准备使用ipfs这类去中心化的网络应用了
 
 ## 安装
 
 打开[ipfs](https://ipfs.io/docs/install/)，选择[getting started with ipfs](https://ipfs.io/docs/getting-started/)
 
+<!-- ![](https://ipfs.io/ipfs/QmVqhqctR8HaHEaLBsT8oCy5u2cDWH3xp5nWSgCjMGJTJJ?0.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_092613.png)
 
 [install ipfs now](https://ipfs.io/docs/getting-started/)
+
+<!-- ![](https://ipfs.io/ipfs/QmT8nWpg14T2Vts7LRWiNMi4ZcXd3q96DYAYq8cFB3vF5j?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_093125.png)
 
 [download ipfs for your platorm](https://dist.ipfs.io/#go-ipfs)
 
+<!-- ![](https://ipfs.io/ipfs/QmTDGnkpwcuN6tQjnP7R7XpTjLxr9MXwGYKBBbAqXN7ako?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_093548.png)
 
 点击即可下载
+
+<!-- ![](https://ipfs.io/ipfs/QmSTjFqRHEjtW6LWYmE9eLy2YRGjKUmUQgX8JznX6N28Ui?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_093946.png)
 
 解压并用CLI进入当前文件夹，输入`ipfs.exe init`完成初始化操作
 
+<!-- ![](https://ipfs.io/ipfs/QmbAL6HMqHTc8stSxQRhowh5WBcVEiW4i4NsmTe6hcjS78?4.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_095305.png)
 
 `ipfs.exe daemon`开启守护进程
 
+<!-- ![](https://ipfs.io/ipfs/QmRQf6jx8U9VeFfu2gr8T7JhQX5zRdSPgaWmF7BipWrjvn?0.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_095836.png)
 
 输入`http://localhost:5001/webui`进入主界面，在`connection`版块中可以看到全球共有267个节点，这一数字也是动态变化的
+
+<!-- ![](https://ipfs.io/ipfs/Qmf2iphYYZbzoZXisJB6rfGTdEU5MGzRwbPLaoobzA1Nkt?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_100854.png)
 
@@ -36,23 +50,35 @@
 
 在`files`版块中点击`create folder`创建文件夹，目前除图片外，若要正确上传文件，必须使用文件夹的`hash`加载
 
+<!-- ![](https://ipfs.io/ipfs/QmTWV2wo9on5oqgcgQq5N4hRyfLrNY3RXgcvtGfE13Shjb?2.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_113127.png)
 
 选择需要上传的文件，右键`copy hash`，转到DAG板块中粘贴进输入框GO
 
+<!-- ![](https://ipfs.io/ipfs/QmUMhW3H3ApEPihJs9gHxfAG1SExeyUuWZtoM2VmtCpQz7?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_114055.png)
+
+<!-- ![](https://ipfs.io/ipfs/QmeoED47NpN6HHEkiSnz4Mt32XJpoWtX1AQDuC1LaojUA8?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_114452.png)
 
 将如上hash连接复制，并在前面加上`htttps://ipfs.io`
 
+<!-- ![](https://ipfs.io/ipfs/QmRAbdqGsKiZjScrztkftxx9XTArenE8toKkvCZfLhvP8M?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_114812.png)
 
 hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生成短链接
 
+<!-- ![](https://ipfs.io/ipfs/QmfSA2veGGcndSWXpmxhn3zBNux4i1JMHv8Wm3fRr9nmbz?3.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_120243.png)
 
 测试， [https://tinyurl.com/ycn3d6nj](https://tinyurl.com/ycn3d6nj)
+
+<!-- ![](https://ipfs.io/ipfs/QmVTmfExQdvVjrosgsmqKT5hk4wABW756V7pA6YcoN9hCu?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_121017.png)
 
@@ -62,21 +88,31 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 在这里我已预先提供了一份基于gitbook生成的静态网站文件夹
 
+<!-- ![](https://ipfs.io/ipfs/Qmf337dkc4u8Vvz3afx6hVQwDutSagkEh1nPW7dRtSCpEC?2.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_164203.png)
 
 命令行定位到文件夹的上层文件夹，执行`ipfs add -r web-book`上传整个目录
+
+<!-- ![](https://ipfs.io/ipfs/QmYAHqw57WUfvTyLEd8EgAVE6gN38ykrZJg1bV7ci5z4de?0.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_171923.png)
 
 `web-book`文件夹的指令输出的最后一行的哈希值，就是你的网站的根目录
 
+<!-- ![](https://ipfs.io/ipfs/QmSqfSqZCjZ2BGr75sK816cRGHksoESnYK8CPXfg6cjKUF?2.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_172511.png)
 
 复制最后一行的hash值
 
+<!-- ![](https://ipfs.io/ipfs/QmcP41JKtYrq7TuS3pdU2Hmh5zpTQsDKdmniFgQyJcgwb9?4.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_173142.png)
 
 输入`localhost:8080/ipfs`后面追加已复制的哈希值即可
+
+<!-- ![](https://ipfs.io/ipfs/QmW7yPmdmZXPanUrDfVFm7C38TjdB3B3gMWQXjXoU2iCf4?1.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_173114.png)
 
@@ -84,13 +120,19 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 运行了`ipfs add -r` 的指令的窗口不要关闭，新建一个cmd命令行窗口
 
+<!-- ![](https://ipfs.io/ipfs/QmVsyXTKk1s67UogsNjheU5twCzp4FpqZXPvkEEw7ehCPh?4.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_180127.png)
 
 进入ipfs文件夹再输入`ipfs.exe daemon`便发布成功了
 
+<!-- ![](https://ipfs.io/ipfs/QmPt1niB3gjhzq3rctPEP2wNik1g9vEVHWe8GaZbJBj3Po?1.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_175819.png)
 
-测试，[https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi/](https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi/)
+测试，https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi
+
+<!-- ![](https://ipfs.io/ipfs/QmdPPXYVMJ2JTMFChQbdQy2eApMiD6Dr763s27YD46n35b?3.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_181051.png)
 
@@ -100,21 +142,31 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 为了演示方便在`book.json`文件中添加了新的插件，并再次使用了`ipfs add -r web-book`指令使其生成新的hash值。
 
+<!-- ![](https://ipfs.io/ipfs/QmUokTS9iEMAvcBf2r4AuGXkgHzmoC97LuPLtnS3Tc3miz?4.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_213304.png)
 
 使用`ipfs name publish`后面跟上站点根目录的hash值进行发布操作
+
+<!-- ![](https://ipfs.io/ipfs/QmPrEGfXt53aZdXwkRgPC9qFLaziKZKXjy2sXgXQmTDdPk?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_220829.png)
 
 使用`ifps id`查看节点id
 
+<!-- ![](https://ipfs.io/ipfs/Qma7Ww1tWrrdX4aauMqYueeNnhuXR1Ms16JDkDCcSofYM1?1.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_221733.png)
 
 `ipfs name resolve`后面追加已查到的节点id
 
+<!-- ![](https://ipfs.io/ipfs/QmaL3MCdyBbBS5n5X2sweyMj1pKW2UgZka4jY9rSQKtd3F?0.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_222850.png)
 
 此时，已经可以本地访问了，`localhost:8080/ipns/节点id`
+
+<!-- ![](https://ipfs.io/ipfs/QmULUBN4wRUSQ5NquDxXwAyvGuXogymDBCbQbXQsB8BhvR?1.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_223735.png)
 
@@ -122,11 +174,14 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 这里已提供一个短链接地址：[http://bit.ly/2L1C77f](http://bit.ly/2L1C77f)
 
+<!-- ![](https://ipfs.io/ipfs/QmUe1eWwnUFPDpjiSu75Gyv3QxpaHm8Xb2aVJMmuydwXxk?2.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_225417.png)
 
 ## 备份
 
 备份这很重要，但也很简单，在`C:\Users\lorem\.ipfs`下找到`config`文件并将其拷贝至云盘即可,lorem是我的用户名
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_232208.png)
+<!-- ![](https://ipfs.io/ipfs/QmWdvB4mskcD6oPEWJLHB16JspxxdSQh9uog4JoaSgUR2v?3.png) -->
 
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_232208.png)

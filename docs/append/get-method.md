@@ -40,4 +40,6 @@
 
 至此已了解多种获取方式，以下是进行科学上网方式的总览图：
 
+<!-- ![](https://ipfs.io/ipfs/QmRhbqdGy8wmZhnE68D8uesrEgDFAsp2pcJE2frMuKfrvs?1.png) -->
+
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-05_154505.png)
