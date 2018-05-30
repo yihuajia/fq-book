@@ -85,11 +85,11 @@
   * [关于封锁IP的认为](append/block-ip.md)
   * [对于校园网的解读](append/tcw.md)
   * [论及游戏的看法](append/game.md)
-  * [获取工具的方式](append/get-method.md)
-  * [对VPN与代理的整合](append/vpn-proxy.md)
+  * [获取梯子上网的方式](append/get-method.md)
+  * [科学上网工具的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
   * [宿主机使用VM的代理](append/vm.md)
-  * [零网简要的补充介绍](append/4zeronet.md)
+  * [对零网的简要补充说明](append/4zeronet.md)
   * [用Win7，电脑就是路由器](append/win7-wifi.md)
 
 * 此书后记
