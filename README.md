@@ -7,9 +7,9 @@
 
 因清空项目与删库的缘故，在了解IPFS不可更改与删除且永久保存的特性之后，用gitbook构建了fq-book与websiteful并已上传至IPFS平台，与此同时还生成了相关的短链接：
 
-  * 发布在IPFS平台的本书短链接：https://tinyurl.com/ycw3xo9j
+  * 发布在IPFS平台的本书短链接：https://tinyurl.com/ybkp4eqv
   
-  * 基于gitbook生成的本书配套网址：https://tinyurl.com/ybkp4eqv  
+  * 基于gitbook生成的本书配套网址：https://tinyurl.com/ycw3xo9j
 
   * 本书与收录站点源码以及其他等资源：https://tinyurl.com/y7revjwy
 
