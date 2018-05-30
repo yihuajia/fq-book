@@ -25,7 +25,7 @@
 * [“深网”和“暗网”的区别及基础扫盲](http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/)
 * [草榴社区这类色情网站为什么封不掉](https://www.leiphone.com/news/201612/isY4iUwVGppRMsZA.html)
 * [突破Dr.com校园网客户端对于热点和路由器的限制](https://blog.csdn.net/Angle_Cal/article/details/78249612)
-* [《岳昕：致北大师生与北大外国语学院的一封公开信》](https://github.com/sikaozhe1997/Xin-Yue)
+* [岳昕：致北大师生与北大外国语学院的一封公开信](https://github.com/sikaozhe1997/Xin-Yue)
 * [Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)
 * [对去中心化网络的信仰](https://www.kawabangga.com/posts/2226)
 * [IPFS+IPNS+个人博客搭建](http://www.liyuechun.org/2017/11/21/ipfs-blockchain-blogger/#52-%E8%8A%82%E7%82%B9ID%E6%9B%BF%E6%8D%A2)

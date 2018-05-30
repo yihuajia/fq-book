@@ -8,8 +8,10 @@
 因清空项目与删库的缘故，在了解IPFS不可更改与删除且永久保存的特性之后，用gitbook构建了fq-book与websiteful并已上传至IPFS平台，与此同时还生成了相关的短链接：
 
   * 发布在IPFS平台的本书短链接：https://tinyurl.com/ycw3xo9j
+  
+  * 基于gitbook生成的本书配套网址：https://tinyurl.com/ybkp4eqv  
 
-  * 基于gitbook生成的本书配套网址：https://tinyurl.com/ybkp4eqv
+  * 本书与收录站点源码以及其他等资源：https://tinyurl.com/y7revjwy
 
 写此教程目的在于尽力而为消除使用科学上网工具的门槛，让更多的人可以通过此方法与技巧连接免费自由的互联网；技巧与方法以及工具的基本使用流程，基本上算是说完了；这其中很多都是触类旁通的，掌握了书中这些技巧与方法，以后面对新事物也是可以快速上手的；现如今没必要再写下去了，现今且长期以答疑为主，如有疑难可以在本书项目中发起相关issues。
 
