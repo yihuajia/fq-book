@@ -1,6 +1,6 @@
 # chrome
 
-?> chrome扩展下载站点需要输入扩展应用的ID，这里以下载[privatix](https://privatix.com/)插件进行演示
+?> [此chrome扩展下载站点](https://chrome-extension-downloader.com/)需要输入扩展应用的ID，这里以下载[privatix](https://privatix.com/)插件进行演示
 
 要想使用扩展插件，首先得去镜像站点[下载chrome](https://repo.fdzh.org/chrome/exe/?C=M&O=D)
 
