@@ -24,11 +24,21 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-01_160149.png)
 
-应用示例，关于如何使用下载的扩展压缩包，将在[chorme章节](/browse/chrome?id=chrome)中说明
+下载zip压缩包
 
 <!-- ![](https://ipfs.io/ipfs/QmazGqGpH2Aqt9XedswyX7ZpbdnmZiFjaDkx9dLtHXbBMy?0.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-01_160509.png)
 
+将opera扩展下载的chrome扩展压缩包，进行解压生成文件夹
 
+<!-- ![](https://ipfs.io/ipfs/QmT7Vn1JUHsgRvzm5AfX7akDBvEB7VcnW1uTfR9QtZQLbc?3.png) -->
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-01_164056.png)
+
+在chrome中的扩展程序中，开启开发者模式，点击加载已解压的扩展程序，找到已解压的扩展程序文件夹，点击确定
+
+<!-- ![](https://ipfs.io/ipfs/QmW44rZLfD9wdmwpUkSmQhhYrGMh3SXvr7xSexyUyXQF9x?1.png) -->
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-01_164619.png)
 
