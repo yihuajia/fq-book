@@ -1,5 +1,7 @@
 # 修改hosts查询维基百科
 
+?> 早期，GFW屏蔽的网址不是很多且手段也仅仅是污染，修改hosts也仅对当前配置所受污染的站点有效，若需[查看详细原理，请点击此处](4dns.md)
+
 找到`C:\Windows\System32\drivers\etc\host`，打开它
 
 <!-- ![](http://p3.cdn.img9.top/ipfs/QmeUhmaHpUSiQP9hgA4Y5gEsoufqF5u3o9zVrGftWJQx4T?3.png) -->

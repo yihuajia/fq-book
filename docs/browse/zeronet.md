@@ -1,5 +1,7 @@
 # ZeroNet
 
+?> 对zeronet的简单介绍及运作方式概要的说明，[请看这里](4zeronet.md)
+
 下载接着解压缩并打开[Zeronet](https://zeronet.io/)
 
 <!-- ![](https://ipfs.io/ipfs/QmfQdYYVi7h4h3LqVWXFZNkxffHBmjKUGmJbEjr4vJETha?3.png) -->

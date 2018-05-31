@@ -1,5 +1,8 @@
 # DNSCrypt打开论坛站点
 
+!> 目前，多数SS分享站点或是VPN官网均以污染为主，因此可以使用它来打开绝大部分此类相关网址，并以此下载VPN或是配置代理从而连接互联网。<br><br>
+使用Web代理、chrome代理插件等获取翻墙工具与代理账户配置，以此进行的科学上网方式，同理。
+
 开启DNSCrypt服务与网卡选项√
 
 <!-- ![](https://ipfs.io/ipfs/Qme3m7pu4qM2RqT7LqtRM6umPZuKhEMBJkCFGr3tAg66Y3?3.png) -->
@@ -18,7 +21,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-29_031418.png)
 
-此类分享论坛或是VPN官网目前均以污染为主，差不多只要不是对communist/terrorist有意见，基本都不会被列入IP黑名单，也就是封IP。[点击即可测试](https://ssrshare.com/)
+测试
 
 <!-- ![](https://ipfs.io/ipfs/QmSr8t86BHkoDyofqEMYucg9uAyxCGVjuqzVPE6yGmqf3r?4.png) -->
 

@@ -1,6 +1,6 @@
 # rabb.it观看YouTube
 
-rabbit是视频应用社交分享平台，由于内置了连接外网的虚拟云Ubantu系统，所以能够科学上网。
+?> [rabbit](https://www.rabb.it/)是视频应用社交分享平台，由于内置了连接外网的虚拟云Ubantu系统，所以能够科学上网
 
 点击资料旁在右上角头像那点击`My Room`
 

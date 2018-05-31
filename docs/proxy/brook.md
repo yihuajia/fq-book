@@ -1,8 +1,6 @@
 # brook
 
-进入[逗比ss分享站点](https://doub.io/)，免费账号分享，服务器列表brook行中点击查看二维码；在生成编码文件页面中，以开发者模式打开控制台输入URL解码代码：
-
-`decodeuricomponent("需要解码URL")`
+进入[逗比ss分享站点](https://doub.io/sszhfx/)，在服务器列表找到brook，打开控制台输入`decodeuricomponent("需要解码URL")`
 
 <!-- ![](https://ipfs.io/ipfs/QmVyHu3fJZNiWXaFL6FcNx2LXDh6rASN4uQVxrjkLc1Ems?4.png) -->
 

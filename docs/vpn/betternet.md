@@ -1,5 +1,7 @@
 # Betternet
 
+!> 如需对VPN有一个较为清晰的了解，[可以看这里](/abc/1190000011485579?id=vpn)
+
 点击
 
 <!-- ![](https://ipfs.io/ipfs/QmWFRGy8fQr35qK5RujpWdnHyQjMWvjESRxnQK84uQrhcw?3.png) -->

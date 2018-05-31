@@ -1,7 +1,6 @@
 # heroku搭建ss服务器
 
-> **[warning] 免费配额与限制：**
-
+> **免费配额与限制：**
 > * Network Bandwidth/流量: 2TB/month – Soft
 > * Shared DB processing/并发数: Max 200msec per second CPU time – Soft
 > * Dyno RAM usage/使用运行内存: 512MB – Hard
