@@ -28,15 +28,6 @@
   * [Tor（Firefox）](browse/tor-firefox.md)
   * [zeronet](browse/zeronet.md)
 
-* 使用网站
-
-  * [网页代理的使用](web/web-proxy.md)
-  * [rabb.it观看YouTube](web/rabb.md)
-  * [heroku搭建ss服务器](web/ss-4-heroku.md)
-  * [heroku搭建v2ray服务器](web/v2ray-4-heroku.md)
-  * [heroku搭建ss分享站点](web/heroku-deploy.md)
-  * [提取各类科学上网站点有效信息](web/4sol.md)
-
 * 代理工具
 
   * [SS/SSR](proxy/ss-ssr.md)
@@ -54,6 +45,15 @@
   * [OpenVPN](vpn/openvpn.md)
   * [GateVPN](vpn/gatevpn.md)
   * [付费VPN](vpn/pay-vpn.md)
+
+* 使用网站
+
+  * [网页代理的使用](web/web-proxy.md)
+  * [rabb.it观看YouTube](web/rabb.md)
+  * [heroku搭建ss服务器](web/ss-4-heroku.md)
+  * [heroku搭建v2ray服务器](web/v2ray-4-heroku.md)
+  * [heroku搭建ss分享站点](web/heroku-deploy.md)
+  * [提取各类科学上网站点有效信息](web/4sol.md)
 
 * ipfs专题
 
