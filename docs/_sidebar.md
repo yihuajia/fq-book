@@ -15,19 +15,18 @@
   * [DuckDuckGo](search/duckduckgo.md)
   * [Ask](search/ask.md)
 
-* 浏览应用
-
-  * [Tor（Firefox）](browse/tor-firefox.md)
-  * [opera](browse/opera.md)
-  * [chrome](browse/chrome.md)
-  * [zeronet](browse/zeronet.md)
-
-
 * DNS与Hosts
 
+  * [DNSCrypt](dns&hosts/dnscrypt.md)
   * [DNS](dns&hosts/dns.md)
   * [hosts](dns&hosts/hosts.md)
-  * [DNSCrypt](dns&hosts/dnscrypt.md)
+
+* 浏览应用
+
+  * [chrome](browse/chrome.md)
+  * [opera](browse/opera.md)
+  * [Tor（Firefox）](browse/tor-firefox.md)
+  * [zeronet](browse/zeronet.md)
 
 * 使用网站
 
@@ -51,10 +50,10 @@
 
 * VPN软件
 
-  * [付费VPN](vpn/pay-vpn.md)
   * [Betternet](vpn/betternet.md)
   * [OpenVPN](vpn/openvpn.md)
   * [GateVPN](vpn/gatevpn.md)
+  * [付费VPN](vpn/pay-vpn.md)
 
 * ipfs专题
 

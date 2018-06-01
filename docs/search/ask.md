@@ -4,7 +4,7 @@
 >
 > 雅虎、微软搜索业务合并之后，Ask.com是美国第三，世界第六大公网搜索引擎，仅次于谷歌、必应和百度、[NAVER](https://zh.wikipedia.org/wiki/NAVER)、[Yandex](https://zh.wikipedia.org/wiki/Yandex)。据一份调查报告表明，Ask.com是谷歌用户首选的替代搜索引擎。
 >
-> ——摘自维基百科
+> ——摘自 维基百科
 
 现今IP被封禁
 

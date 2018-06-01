@@ -1,6 +1,6 @@
 # Tor（Firefox）
 
-!> Tor、I2P都是属于匿名访问暗网性质的软件，如需对暗网有基本的认识，[请看这里](abc/darkweb)
+!> Tor、I2P都是属于匿名浏览访问[暗网](/abc/darkweb)性质的软件，多数情况结合duckduckgo一起使用
 
 azure已由政府背景的企业所代理，但还是可用的，只是不太建议选择
 

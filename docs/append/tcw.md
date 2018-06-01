@@ -4,7 +4,7 @@
 
 > 每过一段时间，客户端会向服务器发送一个维持在线的数据包，所以当我们使用全局的VPN时，这个包会被路由到外网,导致服务器无法按时收到维持在线的请求之后就会开始掉线。
 
-> 摘自及演绎原文[《突破Dr.com校园网客户端对于热点和路由器的限制》](https://blog.csdn.net/Angle_Cal/article/details/78249612) 作者：[angle_cal](https://blog.csdn.net/angle_cal)
+> 摘自及演绎原文：[突破Dr.com校园网客户端对于热点和路由器的限制](https://blog.csdn.net/Angle_Cal/article/details/78249612) 作者：[angle_cal](https://blog.csdn.net/angle_cal)
 
 可以说校园网是集权垄断网络的集中意志的体现，有着更为封闭的局域网网络系统，又一次极大的提升了科学上网的难度；不过，她的文章也提到使用第三方修改报文的客户端与刷路由是可行的。家庭与企业网络难以实施校园网的网络构造的原因，我个人分析为如下几点：
 

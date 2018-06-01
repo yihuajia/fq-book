@@ -1,6 +1,21 @@
 # IPFS简单使用
 
-!> 在看了读者的邮箱来信后，确实，若是被勒令这不可抗拒的因素删除仓库也是毫无办法；何况，我也是各种担心也因其他缘由与相关操作不当导致删除重建好几次该书项目，而这次就需要着手准备使用ipfs这类去中心化的网络应用了
+## 前言
+
+在看了读者的邮箱来信后，确实，若是被勒令这不可抗拒的因素删除仓库也是毫无办法；何况，我也是各种担心也因其他缘由与相关操作不当导致删除重建好几次该书项目，而这次就需要着手使用ipfs这类去中心化的网络应用了。
+
+这其中也遇到一些问题就是上传文件后，关闭了ipfs的进程，其他人却无法有效访问这个站点了。为此特意搜索相关相关问题内容，找到了一个合理的解释：
+
+> 我还特意找了一个VM安装ipfs，并添加同样内容（"hello world"）的文件到ipfs，发现hash是一样的。相信全球大量的人员在测试ipfs时都可能会使用"hello world"作为文件内容。  
+
+> 所以当访问地址`https://ipfs.io/ipfs/QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o`时，访问的不见得是你自己的电脑上的这个hello.txt文件，除非这个文件的内容独特到全球只有你的电脑上有。  
+
+> 文档`https://ipfs.io/ipfs/QmXZXP8QRMG7xB4LDdKeRL5ZyZGZdhxkkLUSqoJDV1WRAp`的内容比较独特，恐怕只有我自己的电脑上有，如果我不开机并启动ipfs进程，估计别人访问不了。
+
+> —— 摘自 [王伟兵的博客](https://github.com/wbwangk/wbwangk.github.io/wiki/IPFS)
+
+也就是说，打不开对方提供的已发布在网上的IPFS节点链接，很可能是资源仅他独有且关闭了ipfs的进程。
+
 
 ## 安装
 
@@ -48,7 +63,7 @@
 
 ## 上传文件
 
-在`files`版块中点击`create folder`创建文件夹，目前除图片外，若要正确上传文件，必须使用文件夹的`hash`加载
+在`files`版块中点击`create folder`创建文件夹，目前除图片外，若要正确上传文件，必须用文件夹的`hash`加载
 
 <!-- ![](https://ipfs.io/ipfs/QmTWV2wo9on5oqgcgQq5N4hRyfLrNY3RXgcvtGfE13Shjb?2.png) -->
 
@@ -76,7 +91,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_120243.png)
 
-测试， [https://tinyurl.com/ycn3d6nj](https://tinyurl.com/ycn3d6nj)
+测试
 
 <!-- ![](https://ipfs.io/ipfs/QmVTmfExQdvVjrosgsmqKT5hk4wABW756V7pA6YcoN9hCu?2.png) -->
 
@@ -130,7 +145,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-27_175819.png)
 
-测试，https://ipfs.io/ipfs/QmVbeGQ7kEgLev9VUZeL5Kzpn4fBL9Pcq3iwpkAJjGSnHi
+测试
 
 <!-- ![](https://ipfs.io/ipfs/QmdPPXYVMJ2JTMFChQbdQy2eApMiD6Dr763s27YD46n35b?3.png) -->
 
@@ -172,7 +187,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 关掉之前的使用`ipfs daemon`指令的窗口，再打开命令行窗口重新运行该指令即可，由于访问人数不多再加上GFW的干扰，可能会很慢。
 
-这里已提供一个短链接地址：[http://bit.ly/2L1C77f](http://bit.ly/2L1C77f)
+测试
 
 <!-- ![](https://ipfs.io/ipfs/QmUe1eWwnUFPDpjiSu75Gyv3QxpaHm8Xb2aVJMmuydwXxk?2.png) -->
 
@@ -180,7 +195,7 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 ## 备份
 
-备份这很重要，但也很简单，在`C:\Users\lorem\.ipfs`下找到`config`文件并将其拷贝至云盘即可,lorem是我的用户名
+备份这很重要，但也很简单，在`C:\Users\lorem\.ipfs`下找到`config`文件并将其拷贝至云盘即可，lorem是我的用户名
 
 <!-- ![](https://ipfs.io/ipfs/QmWdvB4mskcD6oPEWJLHB16JspxxdSQh9uog4JoaSgUR2v?3.png) -->
 

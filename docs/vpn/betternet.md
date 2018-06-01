@@ -1,6 +1,8 @@
 # Betternet
 
-!> 如需对VPN有一个较为清晰的了解，[可以看这里](/abc/1190000011485579?id=vpn)
+!> 再次说明：<br>
+简单来说VPN与代理的最大区别就在于代理不会虚拟一块独立的网卡<br>
+多数的免费VPN与代理有着严格的[NAT类型](4nat.md)，以限制游戏与下载等相关操作
 
 点击
 
@@ -20,7 +22,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-08_213716.png)
 
-可设定WiFi热点名称与密码
+可设定WiFi热点名称与密码，若系统是win7，[就请看这里](/append/win7-wifi)
 
 <!-- ![](https://ipfs.io/ipfs/Qmb5xZZWGN73dWHXHHfTPTxSPmqZQEsPRkaGwhGgHYG1SS?1.png) -->
 

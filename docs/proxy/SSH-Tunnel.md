@@ -1,7 +1,5 @@
 # SSH-Tunnel
 
-!> 乐意了解SSH隧道穿墙机制的话，[请进入此通道](/abc/1190000011485579?id=ssh-tunnel)
-
 打开[SSH站点](http://www.speedssh.com)，创建SSH账户
 
 <!-- ![](https://ipfs.io/ipfs/QmZEDXe76sAvE9f55jcqyj2gSQWhGjhAY19SFerks4AZD4?1.png) -->
