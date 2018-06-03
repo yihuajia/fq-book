@@ -5,13 +5,13 @@
 
 首先对早期fork者说声歉意，因为早期不管是[websiteful](https://github.com/loremwalker/WebSiteUseful)还是[fq-book](https://loremwalker.github.io/fq-book)变动都很大。特别是fq-book，也是各种担心且因其他缘由与相关操作不当导致删除重建好几次该书项目，致使该书有多个未完全残缺版本，很是影响阅读体验，这对该书籍传播是尤为不利的；知识是共享的，且该书转载与借鉴了很多相关作者的文章内容，因此允许演绎作品共享但禁止商用，你也可以下载源码进行[本地部署阅读本书](https://github.com/loremwalker/fq-book/blob/master/tutorial/docsify-serve.md)。
 
-因清空项目与删库的缘故，在了解IPFS不可更改与删除且永久保存的特性之后，用gitbook构建了fq-book与websiteful并已上传至IPFS平台，与此同时还生成了相关的短链接：
+因清空项目与删库的缘故，在了解IPFS不可更改与删除且永久保存的特性之后，用gitbook构建了fq-book与websiteuseful并已上传至IPFS平台，与此同时还生成了相关的短链接：
 
-  * 本书短链接：https://tinyurl.com/yafjy8fv
+  * fq-book：https://tinyurl.com/yafjy8fv
   
-  * 配套本教程的SS与SSH配置等网址书：https://tinyurl.com/y7g59nu9
+  * websiteuseful：https://tinyurl.com/y7g59nu9
 
-  * 本书与收录站点源码以及其他等资源：
+  * 相关源码以及其他资源：https://tinyurl.com/yc2u7upp
 
 写此教程目的在于尽力而为消除使用科学上网工具的门槛，让更多的人可以通过此方法与技巧连接免费自由的互联网；技巧与方法以及工具的基本使用流程，基本上算是说完了；这其中很多都是触类旁通的，掌握了书中这些技巧与方法，以后面对新事物也是可以快速上手的；现如今没必要再写下去了，现今且长期以答疑为主，如有疑难可以在本书项目中发起相关issues。
 
