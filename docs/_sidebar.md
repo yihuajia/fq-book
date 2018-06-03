@@ -87,9 +87,9 @@
   * [获取梯子上网的方式](append/get-method.md)
   * [科学上网工具的整合](append/vpn-proxy.md)
   * [不写VPS搭建的原因](append/none-vps.md)
+  * [对零网的简要补充说明](append/4zeronet.md)
   * [宿主机使用VM的代理](append/vm.md)
   * [ReQrypt与BarbaTunnel](append/re.md)
-  * [对零网的简要补充说明](append/4zeronet.md)
   * [用Win7，电脑就是路由器](append/win7-wifi.md)
 
 * 此书后记
