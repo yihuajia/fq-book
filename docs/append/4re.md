@@ -1,5 +1,9 @@
 # ReQrypt与BarbaTunnel
 
+!> 目前，reqrypt由于软件原理构造无法应对墙大的处理机制，在国内已经没有使用它的必要了；不过，在其他网络审查不像中国那么严格的地区，常搭配着DNSCrypt一起使用进行穿墙。<br><br>
+至于barbaTunnel已有多年没更新了，再加上VPN服务器可能自身存在些许问题，使得这款软件不怎么好用；我测试了一下也不是很满意，直白的说就是连接OpenVPN的操作并不成功。<br><br>
+所以，关于这些软件与涉及的一些科学上网相关方面的知识就当做了解好了
+
 ## reqrypt简介
 
 > 原文：[basil00/reqrypt](https://github.com/basil00/reqrypt) 编译：谷歌翻译
@@ -71,10 +75,4 @@ BarbaTunnel是一款可以帮助您绕开防火墙和互联网审查的软件，
 注意： BarbaTunnel不是独立的隧道，您应该在运行BarbaTunnel后运行隧道应用程序或使用标准的VPN连接。
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/home_barbatunneldiagram.png)
-
-### 我对reqrypt与BarbaTunnel的看法
-
-目前，reqrypt由于软件原理构造无法应付国内墙大的处理机制，该软件在国内已经没有使用的必要了；而barbaTunnel多年没更新了，加上一些VPN自身方面连接的问题，使得这款软件不怎么好用，我测试了一下，也并不是很满意，直白一点就是不成功。
-
-所以，以上，这些就当做了解好了
 
