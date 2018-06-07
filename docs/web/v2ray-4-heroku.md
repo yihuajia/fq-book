@@ -4,7 +4,7 @@
 
 * [v2hero](https://github.com/onplus/v2hero)
 
-使用现成的[模板](https://heroku.com/deploy?template=https://github.com/onplus/heroku_go-getting-startedhttps://heroku.com/deploy?template=https://github.com/onplus/heroku_go-getting-started)，默认的uuid有冲突所以需要更改
+使用现成的[模板](https://heroku.com/deploy?template=https://github.com/onplus/heroku_go-getting-started)，默认的uuid有冲突所以需要更改
 
 <!-- ![](https://ipfs.io/ipfs/QmYMotFhdsdFK2nbro8psM9DrfPuGfoR1UW6Wcfhyp8e9u?2.png) -->
 

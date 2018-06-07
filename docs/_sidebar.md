@@ -46,6 +46,11 @@
   * [GateVPN](vpn/gatevpn.md)
   * [付费VPN](vpn/pay-vpn.md)
 
+* 仅作了解
+
+  * [reqrypt](only/reqrypt.md)
+  * [barbaTunnel](only/barbaTunnel.md)
+
 * 使用网站
 
   * [网页代理的使用](web/web-proxy.md)
@@ -61,7 +66,6 @@
   * [ipfs简单使用](ipfs/ipfs-use-naive.md)
   * [对去中心化网络的信仰](ipfs/belief.md)
   * [为什么说去中心化很重要](ipfs/why.md)
-
 
 *  科学普及
 
@@ -89,8 +93,8 @@
   * [不写VPS搭建的原因](append/none-vps.md)
   * [对零网的简要补充说明](append/4zeronet.md)
   * [宿主机使用VM的代理](append/vm.md)
-  * [ReQrypt与BarbaTunnel](append/re.md)
   * [用Win7，电脑就是路由器](append/win7-wifi.md)
+
 
 * 此书后记
 
