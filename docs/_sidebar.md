@@ -26,6 +26,7 @@
   * [chrome](browse/chrome.md)
   * [opera](browse/opera.md)
   * [Tor（Firefox）](browse/tor-firefox.md)
+  * [puffin](browse/puffin.md)
   * [zeronet](browse/zeronet.md)
 
 * 代理工具
