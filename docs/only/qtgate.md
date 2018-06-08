@@ -1,6 +1,6 @@
 # CoNET
 
-> 编译原文：[QTGate/CoNET](https://github.com/QTGate/CoNET) 作者： [CoNET](https://github.com/QTGate)
+> 编译原文：[QTGate/CoNET](https://github.com/QTGate/CoNET)&emsp;作者：[CoNET](https://github.com/QTGate)
 
 CoNET是一个匿名折射网络，允许人们在互联网上提高安全性，隐私和自由。
 

@@ -1,6 +1,6 @@
 # goagent
 
-> 原文：[GoAgent原理和实现\(一\) ：基本原理介绍](https://studygolang.com/articles/4319) 作者： [zhaqiwen](https://my.csdn.net/zhaqiwen)
+> 原文：[GoAgent原理和实现\(一\) ：基本原理介绍](https://studygolang.com/articles/4319)&emsp;作者：[zhaqiwen](https://my.csdn.net/zhaqiwen)
 
  GoAgent的结构其实很简单。通过对它的配置和使用来看，它的基本结构应该是这样的
 
