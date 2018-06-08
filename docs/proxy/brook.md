@@ -1,5 +1,7 @@
 # brook
 
+!> brook也可以使用ss的ip地址、端口、密码进行连接互联网，type类型选择shadowsocks即可
+
 进入[逗比ss分享站点](https://doub.io/sszhfx/)，在服务器列表找到brook，打开控制台输入`decodeuricomponent("需要解码URL")`
 
 <!-- ![](https://ipfs.io/ipfs/QmVyHu3fJZNiWXaFL6FcNx2LXDh6rASN4uQVxrjkLc1Ems?4.png) -->
