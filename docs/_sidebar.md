@@ -49,6 +49,8 @@
 
 * 仅作了解
 
+  * [goagent](only/goagent.md)
+  * [CoNET](only/qtgate.md)
   * [reqrypt](only/reqrypt.md)
   * [barbaTunnel](only/barbaTunnel.md)
 
