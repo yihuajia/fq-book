@@ -25,7 +25,7 @@
 
   * [chrome](browse/chrome.md)
   * [opera](browse/opera.md)
-  * [Tor（Firefox）](browse/tor-firefox.md)
+  * [tor（firefox）](browse/tor-firefox.md)
   * [puffin](browse/puffin.md)
   * [zeronet](browse/zeronet.md)
 
@@ -35,7 +35,7 @@
   * [outline](proxy/outline.md)
   * [brook](proxy/brook.md)
   * [v2ray](proxy/v2ray.md)
-  * [Lantern](proxy/lantern.md)
+  * [lantern](proxy/lantern.md)
   * [proxifier](proxy/proxifier.md)
   * [privoxy](proxy/privoxy.md)
   * [SSH-Tunnel](proxy/SSH-Tunnel.md)
@@ -91,7 +91,6 @@
   * [论及游戏的看法](append/game.md)
   * [获取梯子上网的方式](append/get-method.md)
   * [科学上网工具的整合](append/vpn-proxy.md)
-  * [不写VPS搭建的原因](append/none-vps.md)
   * [对零网的简要补充说明](append/4zeronet.md)
   * [宿主机使用VM的代理](append/vm.md)
   * [用Win7，电脑就是路由器](append/win7-wifi.md)

@@ -1,4 +1,4 @@
-# ZeroNet
+# zeronet
 
 ?> 对zeronet的简单介绍及运作方式概要的说明，[请看这里](4zeronet.md)
 

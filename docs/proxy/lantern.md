@@ -1,4 +1,4 @@
-# Lantern
+# lantern
 
 ?> 与此类似的代理软件有[tuxler](https://tuxler.com/)，虽同蓝灯含有付费内容，但免费免流无期限使用，速度还挺快的
 
