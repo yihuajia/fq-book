@@ -1,5 +1,7 @@
 # CoNET
 
+!> 该项目存在一些邮箱验证不完善与滥用收发邮件等问题，以至于无法有效使用相关翻墙服务，故不建议使用
+
 > 编译原文：[QTGate/CoNET](https://github.com/QTGate/CoNET)&emsp;作者：[CoNET](https://github.com/QTGate)
 
 CoNET是一个匿名折射网络，允许人们在互联网上提高安全性，隐私和自由。

@@ -1,5 +1,7 @@
 # goagent
 
+!> goagent已停止维护并清空了相关仓库，基于此的相关衍生项目xx-net自身问题颇多，且含有服务质量低下的付费功能，并不推荐使用
+
 > 原文：[GoAgent原理和实现\(一\) ：基本原理介绍](https://studygolang.com/articles/4319)&emsp;作者：[zhaqiwen](https://my.csdn.net/zhaqiwen)
 
  GoAgent的结构其实很简单。通过对它的配置和使用来看，它的基本结构应该是这样的
