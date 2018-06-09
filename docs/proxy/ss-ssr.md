@@ -3,7 +3,7 @@
 !>简单来说代理与VPN的最大区别就在于代理不会虚拟一块独立的网卡<br>
 多数的免费代理与VPN有着严格的[NAT类型](4nat.md)，以限制游戏与下载等相关操作
 
-## Shadowsocks
+## SS
 
 ### 入门
 
@@ -60,7 +60,27 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_230423.png)
 
-## ShadowsocksR
+### SS分享
+
+右键-&gt;`服务器`-&gt;`分享服务器配置`，如图
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-53px8.png)
+
+随后可以看到相关ss链接与二维码生成
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-09_174922.png)
+
+可将二维码截图或是复制ss链接分享给他人，扫描或粘贴导入皆可一起愉快翻墙
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-09_181034.png)
+
+## SSR
+
+ps:
+
+* ssr可以使用ss链接与二维码，反之是不行的，且ss只能连接兼容ss的服务器
+* ss与ssr都做了socks代理端口对http协议的兼容，所以并不需要额外的代理转发
+* 全局模式即被的代理软件所有网络均走代理路线，直连模式即正常访问不走任何代理
 
 ### 订阅功能
 
@@ -87,9 +107,11 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 * 一键导入多条服务器地址
 * 不需要经常打开站点网址即可更新服务器配置（取决于订阅源）
 
-ps:
+## SSR分享
 
-* ssr可以使用ss链接与二维码，反之是不行的，且ss只能连接兼容ss的服务器
-* ss与ssr都做了socks代理端口对http协议的兼容，所以并不需要额外的代理转发
-* 全局模式即被的代理软件所有网络均走代理路线，直连模式即正常访问不走任何代理
+打开ssr选中ssr链接即可
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-09_190728.png)
+
+
 
