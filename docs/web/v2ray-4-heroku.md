@@ -34,8 +34,15 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-16_080618.png)
 
-填入相应数据
+环境变量相关参数
 
+|name|value|
+|:-:|:-:|
+|HEROKU_APPNAME|heroku应用名称|
+|HEROKU_EMAIL|注册heroku的邮箱|
+|HEROKU_APIKEY|heroku的apikey| 
+
+添加写入相应键值数据
 <!-- ![](https://ipfs.io/ipfs/QmPGKFVeEbPb8x2hkTDnx4X1RwEWiV7FpsKZr22n6gpqyb?1.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-16_081238.png)
@@ -58,7 +65,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-16_082553.png)
 
-`more`选项中选择`Restart Dynos`并再次选择就行
+在heroku的`more`选项中选择`Restart Dynos`并再次选择就行
 
 <!-- ![](https://ipfs.io/ipfs/QmYkUkyuG6UzPrYBqSAdMR12VFoA5kyf1ANSWVvMG45QDo?0.png) -->
 
