@@ -4,9 +4,7 @@
 
 > 编译原文：[QTGate/CoNET](https://github.com/QTGate/CoNET)&emsp;作者：[CoNET](https://github.com/QTGate)
 
-CoNET是一个匿名折射网络，允许人们在互联网上提高安全性，隐私和自由。CoNET的用户通过连接第三方公共邮件服务器来建立虚拟隧道而不是直接连接，从而使用该网络。
-
-CoNET是一种有效的审查规避工具，允许其用户访问被封锁的目的地或内容。沿着同样的路线，CoNET的用户将他们的IP地址留在公共电子邮件服务器CoNET中，从而允许组织和个人在公共网络上共享信息而不损害他们的隐私。
+CoNET是对抗网络监控的工具。用户通过连接第三方公众邮件服务器，接入CoNET的匿名虚拟网络，它的技术被称为[折射网络](https://zh.wikipedia.org/zh-cn/%E6%8A%98%E5%B0%84%E7%BD%91%E7%BB%9C)，可以帮助用户逃避被网络监控，访问被网络屏蔽的服务器。
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/conet_refraction1.png)
 
