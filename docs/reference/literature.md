@@ -1,5 +1,7 @@
 # 文献列表
 
+!> 文献列表顺序排名不分先后，由于参考文章实属过多，难免有些遗漏，对此表示诚挚的歉意
+
 * [维基模板-突破网络封锁技术](https://zh.wikipedia.org/wiki/Template:%E7%AA%81%E7%A0%B4%E7%BD%91%E7%BB%9C%E5%B0%81%E9%94%81%E6%8A%80%E6%9C%AF)
 * [网络封锁技术方案与反网络封锁技术方案](https://docs.google.com/document/d/1n79DOFLdUTSUtzASiN1TaxSF7SWuXqoZvwyM-SO6W7c/preview)
 * [GFW原理和封锁技术](https://xuranus.github.io/2017/10/09/GFW%E5%8E%9F%E7%90%86%E5%92%8C%E5%B0%81%E9%94%81%E6%8A%80%E6%9C%AF/)
@@ -16,7 +18,6 @@
 * [写给非专业人士看的Shadowsocks简介](https://vc2tea.com/whats-shadowsocks/) 
 * [[计算机网络]简易http server程序](http://www.hoohack.me/2016/10/28/lcn-simple-server)
 * [端口映射和端口转发的区别？](http://www.elecfans.com/dianzichangshi/20171204593654.html)
-* [图解正向代理、反向代理、透明代理](http://blog.51cto.com/z00w00/1031287)
 * [用Win7，电脑就是路由器](http://blog.sina.com.cn/s/blog_6286984e0100kujt.html)
 * [NAT类型科普及一些简单提升NAT类型的方法](http://www.xuxiaobo.com/?p=4243)
 * [四种NAT的iptables实现](http://os.51cto.com/art/201103/249324.htm)
@@ -25,16 +26,17 @@
 * [“深网”和“暗网”的区别及基础扫盲](http://chitanda.me/2016/08/19/difference-between-deepweb-and-darkweb/)
 * [草榴社区这类色情网站为什么封不掉](https://www.leiphone.com/news/201612/isY4iUwVGppRMsZA.html)
 * [突破Dr.com校园网客户端对于热点和路由器的限制](https://blog.csdn.net/Angle_Cal/article/details/78249612)
+* [浅析 正向代理 反向代理 透明代理](https://www.logcg.com/archives/929.html)
 * [岳昕：致北大师生与北大外国语学院的一封公开信](https://github.com/sikaozhe1997/Xin-Yue)
 * [Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)
 * [王伟兵的博客](https://github.com/wbwangk/wbwangk.github.io/wiki/IPFS)
 * [对去中心化网络的信仰](https://www.kawabangga.com/posts/2226)
 * [IPFS+IPNS+个人博客搭建](http://www.liyuechun.org/2017/11/21/ipfs-blockchain-blogger/#52-%E8%8A%82%E7%82%B9ID%E6%9B%BF%E6%8D%A2)
 * [ipfs](https://ipfs.io/ipfs/QmV5ZVQxXURKPDcVDW8WjpLCiQYvNzg173XcB6rYFevoXm/#!index.md)
-* [浅析 正向代理 反向代理 透明代理](https://www.logcg.com/archives/929.html)
+* [CoNET](https://github.com/QTGate/CoNET#conet)
+* [reqrypt](https://github.com/basil00/reqrypt#reqrypt)
+* [what is barbatunnel?](https://github.com/BarbaTunnelCoder/BarbaTunnel/#what-is-barbatunnel)
 * [Deploy V2ray To Heroku](https://github.com/onplus/v2hero/wiki/Deploy-V2ray-To-Heroku)
-
-
-
-
-
+* [shadowsocks-heroku](https://github.com/onplus/shadowsocks-heroku#shadowsocks-heroku)
+* [hadowSocksShare Heroku部署方法](https://github.com/the0demiurge/ShadowSocksShare-OpenShift#heroku-%E9%83%A8%E7%BD%B2%E6%96%B9%E6%B3%95)
+* [ss、ssr链接解析，查看对应密码、端口、协议](https://coderschool.cn/2498.html)

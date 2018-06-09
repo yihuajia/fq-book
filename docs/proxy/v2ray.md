@@ -53,6 +53,6 @@ v2ray图形化界面软件与ss操作类似，请留心，以[v2rayN_Pro](https:
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-05-06_212229.png)
 
 
-分享的话，打开软件所见即所得，可将二维码截图或复制v2ray的链接分享给他人，扫描或粘贴导入皆可
+如需共享账户，可将二维码截图或复制v2ray的链接分享给好友，扫描或粘贴导入皆可
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-09_194631.png)
