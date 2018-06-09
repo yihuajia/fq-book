@@ -84,28 +84,31 @@ ps:
 
 ### 订阅功能
 
-如图设置
-
+右键->`服务器订阅`->`SSR服务器订阅设置`
 <!-- ![](https://ipfs.io/ipfs/QmX4z2VDbj5EDvzRzBHTiyqYsTvvxbgDi3pFwhiLfLLNFL?1.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235146.png)
 
-导入此条订阅：https://prom-php.herokuapp.com/cloudfra_ssr.txt
+点击add添加按钮，并导入此条订阅：https://prom-php.herokuapp.com/cloudfra_ssr.txt
 <!-- ![](https://ipfs.io/ipfs/QmNbaKnwt9E447xLzndAZvCHDByMbA6rZn4AsdDbeuFDuP?2.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-09_215048.png)
 
 <!-- ![](https://ipfs.io/ipfs/QmfXCT9yWSxPq4G7QuU9b1RzmFWZodAkY2Pzrt7iGHko5X?1.png) -->
 
-更新ssr服务器订阅（不通过代理）
+再右键->`服务器订阅`->`更新ssr服务器订阅（不通过代理）`
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235337.png)
 
-
-订阅成功后，打开
+订阅成功后会有如下提示
 <!-- ![](https://ipfs.io/ipfs/QmdteWfXcW3NzJrB8gbxmF83eoybYfBoLThFEC6f8CwYCw?1.png) -->
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-04-28_235358.png)
+
+再打开SSR可看到导入了多条账号信息
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-09_220222.png)
+
 
 订阅的好处：
 
