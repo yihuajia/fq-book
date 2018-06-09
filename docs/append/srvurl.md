@@ -1,12 +1,11 @@
 # ss、ssr、v2ray链接解析
 
-网上有很多人会分享一些免费的 ss、ssr 免费账号，也有少数分享v2ray的；有的会直接把服务、端口、ip、协议等展示出来，直接手动输入相应参数就可以了，有的则直接显示二维码，直接用客户端软件扫一下就可以使用。
-
+?> 网上有很多人会分享一些免费的 ss、ssr 免费账号，也有少数分享v2ray的；有的会直接把服务、端口、ip、协议等展示出来，直接手动输入相应参数就可以了，有的则直接显示二维码，直接用客户端软件扫一下就可以使用。<br><br>
 不过，也有很多是直接以链接的形式展示出来，比如 ss://xxxxx 或 ssr://xxxx,对于这种链接的方式，复制链接后，直接使用ss 、ssr客户端右键从粘贴板导入url链接即可。
 
 
 
-### SS链接
+## SS链接
 
 以ss链接为例，链接如下：
 
@@ -26,7 +25,7 @@
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-07_141818.png)
 
-### SSR链接
+## SSR链接
 
 再来看ssr的url，链接如下：
 
@@ -62,7 +61,55 @@ ssr://NjQuMTM3LjIyOC4zNTo1NzYwOmF1dGhfc2hhMV92NDpjaGFjaGEyMDp0bHMxLjJfdGlja2V0X2
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-07_160125.png)
 
-### SSR对SS的兼容
+## v2ray链接
+
+其实v2ray链接与相关二维码生成与上述方法是差不多的，只是配置参数格式大同小异而已。v2ray不像ss那样有统一规定的url格式，所以各个v2ray图形客户端的分享链接或是二维码不一定通用
+
+v2ray的链接如下
+
+```
+vmess://ew0KICAicHMiOiAicnVzc2lhbi1jbG91ZCIsDQogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwNCiAgInBvcnQiOiAiMjI1MzUiLA0KICAiaWQiOiAiNTIwNTAwNTctZjVlMS00YjllLWI3OGItNWY0OWI1NDlmZDIxIiwNCiAgImFpZCI6ICI2NCIsDQogICJuZXQiOiAia2NwIiwNCiAgInR5cGUiOiAic3J0cCIsDQogICJob3N0IjogIiIsDQogICJ0bHMiOiAiIg0KfQ==
+```
+
+进行base64解码之后再对比v2ray客户端的参数配置就显得一目了然
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_223349.png)
+
+可以说大体是这么一个格式
+
+```json
+{
+  "ps": "别名",
+  "add": "ip地址",
+  "port": "端口",
+  "id": "uuid",
+  "aid": "alterid",
+  "net": "传输协议",
+  "type": "伪装类型",
+  "host": " http header参数",
+  "tls": "底层传输安全"
+}
+```
+
+ 除别名外，可以说服务器与客户端的参数必须要相互对应，别名、留空的是可以省略的。按照这个相关格式生成base64编码。
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_233637.png)
+
+在base64编码首部加上`vmess://`协议头
+
+```text
+vmess://ewogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwKICAicG9ydCI6ICIyMjUzNSIsCiAgImlkIjogIjUyMDUwMDU3LWY1ZTEtNGI5ZS1iNzhiLTVmNDliNTQ5ZmQyMSIsCiAgImFpZCI6ICI2NCIsCiAgIm5ldCI6ICJrY3AiLAogICJ0eXBlIjogInNydHAiCn0=
+```
+
+将其导入至v2ray客户端，在服务器未作其他相关变更时，即可成功连接服务器。
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_235033.png)
+
+当然添加别名更好，这样就能v2ray客户端就能自动生成相应的v2ray链接
+
+![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_235553.png)
+
+## SSR对SS的兼容
 
 至于ssr与ss兼容性的问题参考逗比的解答
 
@@ -122,72 +169,35 @@ ssr://NjQuMTM3LjIyOC4zNTo1NzYwOmF1dGhfc2hhMV92NDpjaGFjaGEyMDp0bHMxLjJfdGlja2V0X2
 
 ![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_032054.png)
 
-### v2ray对ss的兼容
+## v2ray对ss的兼容
 
 ss连接v2ray的服务器，需在v2ray服务端做相应的ss兼容配置；至于v2ray连接其本身兼容ss的服务器，可能需要配置uuid等验证机制。
 
 > 配置参数摘录自：[V2Ray替换shadowsocks服务器详解](https://www.daehub.com/archives/2156.html) 作者：[大隐中心](https://www.daehub.com/)
 
-```text
-
-"inboundDetour": [{    "protocol": "shadowsocks", // 开启 Shadowsocks    "port": 30001, // 监听 30001 端口    "settings": {    "method": "aes-256-cfb", // 加密方式，支持 aes-256-cfb 和 aes-128-cfb    "password": "v2ray", // 密码，必须和客户端相同    "udp": false // 是否开启 UDP 转发  }  },  {    "protocol": "shadowsocks", // 开启 Shadowsocks    "port": 30002, // 监听 30002 端口，由于 Shadowsocks 的限制，多用户的时候只能开多个端口    "settings": { // 配置和上述类似    "method": "aes-256-cfb",    "password": "v2ray-2",    "udp": false  }}],
-```
-
-其实v2ray链接与相关二维码生成与上述方法是差不多的，只是配置参数格式大同小异而已。
-
-### v2ray链接
-
-
-
-
-# v2ray链接生成
-
- v2ray 不像ss那样有统一规定的url格式，所以各个v2ray图形客户端的分享链接或是二维码不一定通用
-
-
-
-v2ray的链接如下
-
-```text
-vmess://ew0KICAicHMiOiAicnVzc2lhbi1jbG91ZCIsDQogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwNCiAgInBvcnQiOiAiMjI1MzUiLA0KICAiaWQiOiAiNTIwNTAwNTctZjVlMS00YjllLWI3OGItNWY0OWI1NDlmZDIxIiwNCiAgImFpZCI6ICI2NCIsDQogICJuZXQiOiAia2NwIiwNCiAgInR5cGUiOiAic3J0cCIsDQogICJob3N0IjogIiIsDQogICJ0bHMiOiAiIg0KfQ==
-```
-
-进行base64解码之后再对比v2ray客户端的参数配置就显得一目了然
-
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_223349.png)
-
-可以说大体是这么一个格式
-
-```text
+```json
+"inboundDetour": [
 {
-  "ps": "别名",
-  "add": "ip地址",
-  "port": "端口",
-  "id": "uuid",
-  "aid": "alterid",
-  "net": "传输协议",
-  "type": "伪装类型",
-  "host": " http header参数",
-  "tls": "底层传输安全"
+    "protocol": "shadowsocks", // 开启 Shadowsocks
+    "port": 30001, // 监听 30001 端口
+    "settings": {
+    "method": "aes-256-cfb", // 加密方式，支持 aes-256-cfb 和 aes-128-cfb
+    "password": "v2ray", // 密码，必须和客户端相同
+    "udp": false // 是否开启 UDP 转发
+  }
+  },
+  {
+    "protocol": "shadowsocks", // 开启 Shadowsocks
+    "port": 30002, // 监听 30002 端口，由于 Shadowsocks 的限制，多用户的时候只能开多个端口
+    "settings": { // 配置和上述类似
+    "method": "aes-256-cfb",
+    "password": "v2ray-2",
+    "udp": false
+  }
 }
+],
 ```
 
- 除别名外，可以说服务器与客户端的参数必须要相互对应，别名、留空的是可以省略的。按照这个相关格式生成base64编码。
 
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_233637.png)
-
-在base64编码首部加上`vmess://`协议头
-
-```text
-vmess://ewogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwKICAicG9ydCI6ICIyMjUzNSIsCiAgImlkIjogIjUyMDUwMDU3LWY1ZTEtNGI5ZS1iNzhiLTVmNDliNTQ5ZmQyMSIsCiAgImFpZCI6ICI2NCIsCiAgIm5ldCI6ICJrY3AiLAogICJ0eXBlIjogInNydHAiCn0=
-```
-
-将其导入至v2ray客户端，在服务器未作其他相关变更时，即可成功连接服务器。
-
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_235033.png)
-
-当然添加别名更好，这样就能v2ray客户端就能自动生成相应的v2ray链接
-
-![](https://raw.githubusercontent.com/loremwalker/fq-book/master/docs/images/2018-06-08_235553.png)
 
 
