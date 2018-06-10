@@ -41,3 +41,4 @@
 * [hadowSocksShare Heroku部署方法](https://github.com/the0demiurge/ShadowSocksShare-OpenShift#heroku-%E9%83%A8%E7%BD%B2%E6%96%B9%E6%B3%95)
 * [ss、ssr链接解析，查看对应密码、端口、协议](https://coderschool.cn/2498.html)
 * [V2Ray替换shadowsocks服务器详解](https://www.daehub.com/archives/2156.html)
+* [关于Shadowsocks的小白常见问题](https://doub.io/ss-jc35/)
