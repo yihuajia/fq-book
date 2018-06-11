@@ -9,7 +9,7 @@
 
   * fq-book：https://tinyurl.com/y8b2n8bk
   
-  * websiteuseful：https://tinyurl.com/yb4tjntx
+  * websiteuseful：https://tinyurl.com/ycqnkgc6
 
   * 相关源码以及其他资源：https://tinyurl.com/ydxylng9
 
